@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<title>BOST</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="master.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('background.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
+<body class="bgimg">
+
+<div class="display-container text-white">
+  <div class="display-middle jumbo">
+
+  </div>
+  <div class="display-topleft container xlarge">
+    <br><br>
+    <p><button onclick="document.getElementById('menu').style.display='block'" class="button black">Available Items</button></p>
+    <p><button onclick="document.getElementById('contact').style.display='block'" class="button black">Terms and Conditions</button></p>
+  </div>
+  <div class="display-bottomleft container">
+    <p class="xlarge"></p>
+  </div>
+</div>
+<div style="background-color:black">
+<p class="bost" style="color: white;text-align: center;font-size: 40px;"><strong>BOARD OF SCIENCE AND TECHNOLOGY, IIT ROPAR</strong></p></div>>
+<p style="text-align:center;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLScYz-1LkXaB45308UtnyfdNBdlBkEDW7dKF9hASs9sX6wJKRw/viewform?embedded=true" width="1000" height="1290" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
+
+<!-- Menu Modal -->
+<div id="menu" class="modal">
+  <div class="modal-content animate-zoom">
+    <div class="container black display-container">
+      <span onclick="document.getElementById('menu').style.display='none'" class="button display-topright large">x</span>
+      <h1>Robotics</h1>
+    </div>
+    <div class="container">
+      <h5>Motor 300RPM <strong>2</strong></h5>
+      <h5>Motor 500RPM <b>4</b></h5>
+      <h5>Arduino Uno<b>10</b></h5>
+    </div>
+    <div class="container black">
+      <h1>Aeromodelling</h1>
+    </div>
+    <div class="container">
+      <h5>Brushles Motors <b>10</b></h5>
+      <h5>Remote Control <b>5</b></h5>
+      <h5>Communication Modules <b>10</b></h5>
+    </div>
+    <div class="container black">
+      <h1>Automotive</h1>
+    </div>
+    <div class="container">
+      <h5>Chassis<b>5</b></h5>
+      <h5>Aquadrive<b>10</b></h5>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Modal -->
+<div id="contact" class="modal">
+  <div class="modal-content animate-zoom">
+    <div class="container black">
+      <span onclick="document.getElementById('contact').style.display='none'" class="button display-topright large">x</span>
+      <h1>Terms and Conditions</h1>
+    </div>
+    <div class="container">
+      <ul>
+      	<li>The Equipments will be issued only to the <strong>active</strong> members of the club.</li>
+        <li>Equipments will be issued by the respective Representative/Coordinators after submission of a valid proposal.</li>
+        <li>Maxmimum number of equipmnts issued to a single person is limited to 5.</li>
+        <li>Any damage or loss of the Equipments will be borne by the person issuing the Equipments</li>
+        <li>Equipments will be issued for 7 days. It can be extended only after submitting a progress report at the end of the week.</li>
+        <li>Skipping the deadlines set by issuers will invite a fine decided by the executive of BOST.</li>
+        <p style="text-align:center;"><strong>Find the list of issued equipments <a href="https://docs.google.com/spreadsheets/d/1c346ctDjvNXYOcE1sYy3j0lWjY6LT6P7CNe70XEYnBo/edit?usp=sharing">here</a>.</strong></p>
+   </ul>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
