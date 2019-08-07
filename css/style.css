@@ -5,6 +5,15 @@
   background-image: -o-linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
   background-image: linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
 }
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -2217,7 +2226,7 @@ ul {
 
 /* line 42, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_menu.scss */
 .single_page_menu .main-menu-item ul li a {
-  color: #fff !important;
+  color: black !important;
 }
 
 /* line 49, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_menu.scss */
@@ -2256,7 +2265,7 @@ ul {
 
 /* line 83, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_menu.scss */
 .single_page_menu .menu_fixed {
-  background-color: blue;
+  background-color: white;
 }
 
 /* line 87, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_menu.scss */
@@ -2291,7 +2300,7 @@ ul {
     left: 0;
     top: 71px;
     width: 100%;
-    background-color: blue;
+    background-color: white;
     text-align: center !important;
   }
   /* line 119, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_menu.scss */
