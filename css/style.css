@@ -2327,7 +2327,7 @@ ul {
   }
   /* line 137, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_menu.scss */
   .dropdown .dropdown-menu .dropdown-item:hover {
-    color: black !important;
+    color: #fff !important;
   }
   /* line 144, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_menu.scss */
   .dropdown:hover .dropdown-menu {
