@@ -4,6 +4,8 @@
 	<style>
     body {
   background-image: url("img/stars.jpg");
+}#nav-toggle-button span {
+    background-color: black;
 }
 div.gallery {
   margin: 35px;
@@ -28,10 +30,11 @@ div.gallery img {
 	<title>CIM Club</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-inverse">
+<nav class="navbar navbar-expand-lg navbar-light" style=" background-color: white;">
+   <nav class="navbar navbar-custom">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <button id="nav-toggle-button" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
@@ -72,6 +75,7 @@ div.gallery img {
       </ul>
     </div>
   </div>
+</nav>
 </nav>
  <section id="intro" class="intro">
     <div class="container">
