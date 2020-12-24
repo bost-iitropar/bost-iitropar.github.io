@@ -1,70 +1,89 @@
-
 <!doctype html>
 <html lang="en">
 
 <head>
 
-	<style>
+    <style>
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 2s;
+            animation-name: fade;
+            animation-duration: 2s;
+            padding=0px !important;
+        }
 
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 2s;
-  animation-name: fade;
-  animation-duration: 2s;
-  padding=0px !important;
-}
+        #hehe {
+            padding-left: 30px;
+        }
 
-#hehe{
-	padding-left: 30px;
-}
-#club1 {
-	padding-top: 20px;
-	font-size: 20px;
-}
-#cc1{
-	  color: black;
-}
-#cc2{
-	  color: black;
-}
-#cc3{
-	  color: black;
-}
-#cc4{
-	  color: black;
-}
-#cc5{
-	  color:black;
-}
-#cc6{
-	  color: black;
-}
-#cc7{
-	  color: black;
-}
-#cc8{
-	  color: black;
-}
-#cc9{
-	  color: black;
-}
+        #club1 {
+            padding-top: 20px;
+            font-size: 20px;
+        }
+
+        #cc1 {
+            color: black;
+        }
+
+        #cc2 {
+            color: black;
+        }
+
+        #cc3 {
+            color: black;
+        }
+
+        #cc4 {
+            color: black;
+        }
+
+        #cc5 {
+            color: black;
+        }
+
+        #cc6 {
+            color: black;
+        }
+
+        #cc7 {
+            color: black;
+        }
+
+        #cc8 {
+            color: black;
+        }
+
+        #cc9 {
+            color: black;
+        }
 
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-@media only screen and (max-width: 300px) { 
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
 
-  .text {font-size: 11px}
+            to {
+                opacity: 1
+            }
+        }
 
-}
-@media only screen and (max-width: 480px) {
-.slideshow-container {
+        @media only screen and (max-width: 300px) {
 
-margin-bottom: 0;
-padding: 10px 8px;
-</style>
+            .text {
+                font-size: 11px
+            }
+
+        }
+
+        @media only screen and (max-width: 480px) {
+            .slideshow-container {
+
+                margin-bottom: 0;
+                padding: 10px 8px;
+            }
+        }
+    </style>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -94,8 +113,9 @@ padding: 10px 8px;
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="index.html"style="font-size: 40px"> <img src="img/bost.png" alt="logo"><img src="img/final2.png" alt="logo"></a>
-                    
+                        <a class="navbar-brand" href="index.html" style="font-size: 40px"> <img src="img/bost.png"
+                                alt="logo"><img src="img/final2.png" alt="logo"></a>
+
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -105,17 +125,21 @@ padding: 10px 8px;
                         <div class="collapse navbar-collapse main-menu-item justify-content-end"
                             id="navbarSupportedContent">
                             <ul class="navbar-nav">
-                                
+
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  align="left">About</a>
+                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                        align="left">About</a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="#about-section">About</a>
-                                        
+
                                         <a class="dropdown-item" href="index.html">Alumni</a>
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Clubs</a>
+                                    <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">Clubs</a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="robotics_club.html">Robotics Club</a>
                                         <a class="dropdown-item" href="aeromodelling_club.html">Aeromodelling Club</a>
@@ -132,27 +156,26 @@ padding: 10px 8px;
                                     <a class="nav-link" href="team.html">People</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >Events</a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="index.html">Competitions</a>
-                                        <a class="dropdown-item" href="index.html">Summer Camp</a>
-                                        <a class="dropdown-item" href="index.html">Quintessence</a>
-                                        <a class="dropdown-item" href="https://advitiya.in/">Advitiya</a>
-                                                                                
-                                    </div>
-                                </li>
-                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >Centers and Facilities</a>
+                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">Centers and Facilities</a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="home.html">Sci-Fi</a>
-                                        <a class="dropdown-item" href="https://forms.gle/cTgMkYycsbkqwzSy6">Feedback Form</a>
-                                        
+                                        <a class="dropdown-item" href="https://forms.gle/cTgMkYycsbkqwzSy6">Feedback
+                                            Form</a>
+
                                         <a class="dropdown-item" href="index.html">Gallery</a>
                                         <a class="dropdown-item" href="contact.html">Contacts</a>
-                                                                                
+
                                     </div>
                                 </li>
-                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="i1.html">Initiative 1</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="i2.html">Initiative 2</a>
+                                </li>
+
                             </ul>
                         </div>
                     </nav>
@@ -160,88 +183,95 @@ padding: 10px 8px;
             </div>
         </div>
     </header>
-    
+
     <!-- Header part end-->
 
     <!-- banner part start-->
     <section>
-    	<br>
-    	<br>
-    	<br>
-    	<br>
-    	<br>
-    	<br>
-       <div id="carouselExampleIndicators" class="carousel slide container " data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      <!-- <li data-target="#carouselExampleIndicators" data-slide-to="3"></li> -->
-    </ol>
-    <div class="carousel-inner " role="listbox">
-     
-      <!-- <div class="carousel-item active">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="carouselExampleIndicators" class="carousel slide container " data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <!-- <li data-target="#carouselExampleIndicators" data-slide-to="3"></li> -->
+            </ol>
+            <div class="carousel-inner " role="listbox">
+
+                <!-- <div class="carousel-item active">
         <img  class="d-block w-100 h-150"  src="img/quintessence.png" height="600" alt="Third slide">
         <div class="carousel-caption d-none d-md-block">
           
          
         </div>
       </div> -->
-    
-      <div class="carousel-item active">
-        <img class="d-block w-100 h-150"  src="img/second.JPG"height="600" width="700" alt="Third slide">
-        <div class="carousel-caption d-none d-md-block">
-         
-          
-        </div>
-      </div>
-      
-     
-      <div class="carousel-item">
-        <img class="d-block w-100 h-150" src="img/third.png" height="1000" alt="Third slide">
-        <div class="carousel-caption d-none d-md-block">
-          
-         
-      </div>
-    </div>
-    
-    <div class="carousel-item">
-        <img class="d-block w-100 h-150"  src="img/first.jpg"height="600" alt="Third slide">
-        <div class="carousel-caption d-none d-md-block">
-         
-          
-        </div>
-      </div>
-    
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-  </div>
-</header>
-</section>
-<h4 class="display-4"style="font-family: Monotype Corsiva; padding-top:8px"><font color="black"><center> INNOVATIVE THINKING TURNING IDEAS INTO REALITY </center></font></h4>
-<section class="cta_part" id="about-section">
+
+                <div class="carousel-item active">
+                    <img class="d-block w-100 h-150" src="img/second.JPG" height="600" width="700" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+
+
+                    </div>
+                </div>
+
+
+                <div class="carousel-item">
+                    <img class="d-block w-100 h-150" src="img/third.png" height="1000" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+
+
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block w-100 h-150" src="img/first.jpg" height="600" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+
+
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            </header>
+    </section>
+    <h4 class="display-4" style="font-family: Monotype Corsiva; padding-top:8px">
+        <font color="black">
+            <center> INNOVATIVE THINKING TURNING IDEAS INTO REALITY </center>
+        </font>
+    </h4>
+    <section class="cta_part" id="about-section">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <div class="cta_part_iner">
                         <div class="cta_part_text">
-                            <p style="font-family: Monotype Corsiva ;padding-top: 24px; font-size:50px"><strong>WE MAKE IT HAPPEN</strong></p>
-                            <h1><i>Science and Technology Clubs are set up to kindle and nurture the love for technology, each club with its own specialization and guest lectures by prominent personalities in the world of technology and science.<br>
-                            </br>
-                            </i></h1>
+                            <p style="font-family: Monotype Corsiva ;padding-top: 24px; font-size:50px"><strong>WE MAKE
+                                    IT HAPPEN</strong></p>
+                            <h1><i>Science and Technology Clubs are set up to kindle and nurture the love for
+                                    technology, each club with its own specialization and guest lectures by prominent
+                                    personalities in the world of technology and science.<br>
+                                    </br>
+                                </i></h1>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
- 
+
 
 
     <section class="review_part">
@@ -249,13 +279,13 @@ padding: 10px 8px;
             <div class="row justify-content-center">
                 <div class="col-lg-5">
                     <div class="section_tittle text-center">
-                       
+
                         <h2 class=Helping><br></br> People's Say</h2>
                     </div>
                 </div>
             </div>
-            <style >
-                
+            <style>
+
             </style>
             <center>
                 <div class="col-md-8 col-lg-5">
@@ -265,7 +295,8 @@ padding: 10px 8px;
                                 <div class="owl-carousel owl-theme" id="sync2">
                                     <div class="owl-thumb-item">
                                         <div class="slider-thumbnails">
-                                            <img  src="img/deansa.png" height="500" width="500" alt="slideimg" class="image">
+                                            <img src="img/deansa.png" height="500" width="500" alt="slideimg"
+                                                class="image">
                                         </div>
                                     </div>
                                     <div class="owl-thumb-item">
@@ -328,7 +359,13 @@ padding: 10px 8px;
                             <div class="col-lg-12">
                                 <div class="slider owl-carousel owl-theme" id="sync1">
                                     <div class="client_review_text">
-                                        <p>What I understand the duty of student affairs (SA) is to create an environment to students to participate in various academic and non-academic activities, while judiciously ensuring discipline and security, for making them global "learned" leaders with utmost satisfaction on their understanding, knowledge and experience gained while staying at campus. I strongly believe that, our students have huge potential to become world leaders and SA team is working hard to ensure this happen !</p>
+                                        <p>What I understand the duty of student affairs (SA) is to create an
+                                            environment to students to participate in various academic and non-academic
+                                            activities, while judiciously ensuring discipline and security, for making
+                                            them global "learned" leaders with utmost satisfaction on their
+                                            understanding, knowledge and experience gained while staying at campus. I
+                                            strongly believe that, our students have huge potential to become world
+                                            leaders and SA team is working hard to ensure this happen !</p>
                                         <img src="img/bost.png" alt="#">
                                         <div class="client_info">
                                             <h3>Dr. C. C. Reddy</h3>
@@ -348,8 +385,12 @@ padding: 10px 8px;
                                         </div>
                                     </div>
                                     <div class="client_review_text">
-                                        <p>BOST is a place for dreamers,innovators and out of the box thinkers with various club here guided by enthusiastic people one can learn ,innovate , build and own the future.
-                                        To be a leader in Science and Technology we seek your support and participation in this strive of ours. So pick up a club which fascinates you and join with us.</p>
+                                        <p>BOST is a place for dreamers,innovators and out of the box thinkers with
+                                            various club here guided by enthusiastic people one can learn ,innovate ,
+                                            build and own the future.
+                                            To be a leader in Science and Technology we seek your support and
+                                            participation in this strive of ours. So pick up a club which fascinates you
+                                            and join with us.</p>
                                         <img src="img/bost.png" alt="#">
                                         <div class="client_info">
                                             <h3>Mr. Ashish Bedi</h3>
@@ -357,36 +398,13 @@ padding: 10px 8px;
                                         </div>
                                     </div>
                                     <div class="client_review_text">
-                                        <p>What I understand the duty of student affairs (SA) is to create an environment to students to participate in various academic and non-academic activities, while judiciously ensuring discipline and security, for making them global "learned" leaders with utmost satisfaction on their understanding, knowledge and experience gained while staying at campus. I strongly believe that, our students have huge potential to become world leaders and SA team is working hard to ensure this happen !</p>
-                                        <img src="img/bost.png" alt="#">
-                                        <div class="client_info">
-                                            <h3>Dr. C. C. Reddy</h3>
-                                            <h5>Dean Student Affairs</h5>
-                                        </div>
-                                    </div>
-                                    <div class="client_review_text">
-                                        <p>Own midst. Behold sea created male he together of That Said fourth deep
-                                            abundantly
-                                            have light night beginning rule darkness seed darkness which land saying
-                                            moveth.
-                                            Fifth shall wont signs, can seasons green days gathered great</p>
-                                        <img src="img/bost.png" alt="#">
-                                        <div class="client_info">
-                                             <h3>Dr. Neeraj Goel</h3>
-                                            <h5>Faculty Advisor, BOST</h5>
-                                        </div>
-                                    </div>
-                                    <div class="client_review_text">
-                                        <p>BOST is a place for dreamers,innovators and out of the box thinkers with various club here guided by enthusiastic people one can learn ,innovate , build and own the future.
-To be a leader in Science and Technology we seek your support and participation in this strive of ours. So pick up a club which fascinates you and join with us!</p>
-                                        <img src="img/bost.png" alt="#">
-                                        <div class="client_info">
-                                            <h3>Mr. Ashish Bedi</h3>
-                                            <h5>General Secretary, BOST</h5>
-                                        </div>
-                                    </div>
-                                    <div class="client_review_text">
-                                        <p>What I understand the duty of student affairs (SA) is to create an environment to students to participate in various academic and non-academic activities, while judiciously ensuring discipline and security, for making them global "learned" leaders with utmost satisfaction on their understanding, knowledge and experience gained while staying at campus. I strongly believe that, our students have huge potential to become world leaders and SA team is working hard to ensure this happen !</p>
+                                        <p>What I understand the duty of student affairs (SA) is to create an
+                                            environment to students to participate in various academic and non-academic
+                                            activities, while judiciously ensuring discipline and security, for making
+                                            them global "learned" leaders with utmost satisfaction on their
+                                            understanding, knowledge and experience gained while staying at campus. I
+                                            strongly believe that, our students have huge potential to become world
+                                            leaders and SA team is working hard to ensure this happen !</p>
                                         <img src="img/bost.png" alt="#">
                                         <div class="client_info">
                                             <h3>Dr. C. C. Reddy</h3>
@@ -406,8 +424,12 @@ To be a leader in Science and Technology we seek your support and participation 
                                         </div>
                                     </div>
                                     <div class="client_review_text">
-                                        <p>BOST is a place for dreamers,innovators and out of the box thinkers with various club here guided by enthusiastic people one can learn ,innovate , build and own the future.
-To be a leader in Science and Technology we seek your support and participation in this strive of ours. So pick up a club which fascinates you and join with us!</p>
+                                        <p>BOST is a place for dreamers,innovators and out of the box thinkers with
+                                            various club here guided by enthusiastic people one can learn ,innovate ,
+                                            build and own the future.
+                                            To be a leader in Science and Technology we seek your support and
+                                            participation in this strive of ours. So pick up a club which fascinates you
+                                            and join with us!</p>
                                         <img src="img/bost.png" alt="#">
                                         <div class="client_info">
                                             <h3>Mr. Ashish Bedi</h3>
@@ -415,7 +437,13 @@ To be a leader in Science and Technology we seek your support and participation 
                                         </div>
                                     </div>
                                     <div class="client_review_text">
-                                        <p>What I understand the duty of student affairs (SA) is to create an environment to students to participate in various academic and non-academic activities, while judiciously ensuring discipline and security, for making them global "learned" leaders with utmost satisfaction on their understanding, knowledge and experience gained while staying at campus. I strongly believe that, our students have huge potential to become world leaders and SA team is working hard to ensure this happen !</p>
+                                        <p>What I understand the duty of student affairs (SA) is to create an
+                                            environment to students to participate in various academic and non-academic
+                                            activities, while judiciously ensuring discipline and security, for making
+                                            them global "learned" leaders with utmost satisfaction on their
+                                            understanding, knowledge and experience gained while staying at campus. I
+                                            strongly believe that, our students have huge potential to become world
+                                            leaders and SA team is working hard to ensure this happen !</p>
                                         <img src="img/bost.png" alt="#">
                                         <div class="client_info">
                                             <h3>Dr. C. C. Reddy</h3>
@@ -430,16 +458,59 @@ To be a leader in Science and Technology we seek your support and participation 
                                             Fifth shall wont signs, can seasons green days gathered great</p>
                                         <img src="img/bost.png" alt="#">
                                         <div class="client_info">
-                                           <h3>Dr. Neeraj Goel</h3>
+                                            <h3>Dr. Neeraj Goel</h3>
                                             <h5>Faculty Advisor, BOST</h5>
                                         </div>
                                     </div>
                                     <div class="client_review_text">
-                                        <p>BOST is a place for dreamers,innovators and out of the box thinkers with various club here guided by enthusiastic people one can learn ,innovate , build and own the future.
-To be a leader in Science and Technology we seek your support and participation in this strive of ours. So pick up a club which fascinates you and join with us!</p>
+                                        <p>BOST is a place for dreamers,innovators and out of the box thinkers with
+                                            various club here guided by enthusiastic people one can learn ,innovate ,
+                                            build and own the future.
+                                            To be a leader in Science and Technology we seek your support and
+                                            participation in this strive of ours. So pick up a club which fascinates you
+                                            and join with us!</p>
                                         <img src="img/bost.png" alt="#">
                                         <div class="client_info">
-                                             <h3>Mr. Ashish Bedi</h3>
+                                            <h3>Mr. Ashish Bedi</h3>
+                                            <h5>General Secretary, BOST</h5>
+                                        </div>
+                                    </div>
+                                    <div class="client_review_text">
+                                        <p>What I understand the duty of student affairs (SA) is to create an
+                                            environment to students to participate in various academic and non-academic
+                                            activities, while judiciously ensuring discipline and security, for making
+                                            them global "learned" leaders with utmost satisfaction on their
+                                            understanding, knowledge and experience gained while staying at campus. I
+                                            strongly believe that, our students have huge potential to become world
+                                            leaders and SA team is working hard to ensure this happen !</p>
+                                        <img src="img/bost.png" alt="#">
+                                        <div class="client_info">
+                                            <h3>Dr. C. C. Reddy</h3>
+                                            <h5>Dean Student Affairs</h5>
+                                        </div>
+                                    </div>
+                                    <div class="client_review_text">
+                                        <p>Own midst. Behold sea created male he together of That Said fourth deep
+                                            abundantly
+                                            have light night beginning rule darkness seed darkness which land saying
+                                            moveth.
+                                            Fifth shall wont signs, can seasons green days gathered great</p>
+                                        <img src="img/bost.png" alt="#">
+                                        <div class="client_info">
+                                            <h3>Dr. Neeraj Goel</h3>
+                                            <h5>Faculty Advisor, BOST</h5>
+                                        </div>
+                                    </div>
+                                    <div class="client_review_text">
+                                        <p>BOST is a place for dreamers,innovators and out of the box thinkers with
+                                            various club here guided by enthusiastic people one can learn ,innovate ,
+                                            build and own the future.
+                                            To be a leader in Science and Technology we seek your support and
+                                            participation in this strive of ours. So pick up a club which fascinates you
+                                            and join with us!</p>
+                                        <img src="img/bost.png" alt="#">
+                                        <div class="client_info">
+                                            <h3>Mr. Ashish Bedi</h3>
                                             <h5>General Secretary, BOST</h5>
                                         </div>
                                     </div>
@@ -448,229 +519,347 @@ To be a leader in Science and Technology we seek your support and participation 
                         </div>
                     </div>
                 </div>
-            </div>
-        </div></center>
+        </div>
+        </div>
+        </center>
     </section>
-        
+
 
     <section class="features-section border-bottom" style="padding:10px">
         <div class="container teams" style="padding: 0">
-            <h1 class="center-title" text-color ="text-black" style=" margin: 35px; color:black;"> <center> HOBBY CLUBS</center> </h1>
-           
-       
-       <div>
-       	<center>
-<ul>  <li style="text-decoration-color: black; font-size:20px"><a id="cc1" href="#club1">Robotics Club</li>
-   <li style="font-size:20px"><a id="cc2" href="#club2">Aeromodelling Club</li> 
-   <li style="font-size:20px"><a id="cc3" href="#club3">Coding Club</li>
-    <li style="font-size:20px"><a id="cc4" href="#club4">Software Community</li>
-     <li style="font-size:20px"><a id="cc5" href="#club5">CIM Cub</li> 
-     <li style="font-size:20px"><a id="cc6" href="#club6">Zenith Club</li> 
-     <li style="font-size:20px"><a id="cc7" href="#club7">Finance Community</li>
-      <li style="font-size:20px"><a id="cc8" href="#club8">Monochrome Club</li> 
-      <li style="font-size:20px "><a id="cc9" href="#club9">Automotive Club</li>
-      </center>
-</ul> 
-       </div>
-            <div style="padding: 0 2px 2px 2px;">
-                <ul class="features-tabs list-inline text-center clubsTabs" role="tablist" >
-                    <li id="club1" role="presentation" class="active"><a href="http://tech-iitb.org/#f1" aria-controls="f1" role="tab" data-toggle="tab"style="font-size:30px"> Robotics Club</a><p align="left" style="margin: 15px;font-size:18px"><img src="img/RoboticsClub.png" alt="demo" align="left"width="300" hspace="20">
-                                   <i> The Robotics Club at its core is driven by fascination with being able to build things that emulate
-                                      real life, or finding solutions to real-world problems through devices or bots that are a product of
-                                      our collective intelligence. Developing new skills which would help us channel this fascination
-                                      into tangible implementation is our primary goal. We are a community of technology enthusiasts,
-                                      which envisions to build things too fantastic to be true, as if straight out of a book or a movie.</i>
-                                      <br><a href="robotics_club.html" class="btn btn-primary">Know More</a>
-                                </p><br></br>
-                            <div class='col-md-1'></div>
-                            <div class="col-md-5" style="overflow: hidden">
-                                <img src="/static/assets/images/aero.png" alt="" class="img-responsive" style="height: 1px">
-                            </div></li>
-                            <style>a.ex2:hover, a.ex2:active {font-size: 150%;}</style>
-                    <li id="club2" role="presentation"><a href="http://tech-iitb.org/#f2" aria-controls="f2" role="tab" data-toggle="tab" style="font-size:30px"><br></br>Aeromodelling Club</a><p align="left" style="font-size:18px"><img src="img/aeromodelling.png" alt="demo" align="right" width="300" hspace="20"><i>
-                    	            The desire to fly is an idea handed down to us by our ancestors who...looked
-                                    enviously on the birds soaring freely through space...on the infinite highway of the air.
-                                    We, at Aeromodelling Club, IIT Ropar are group of aeromodelling and aviation
-                                    enthusiasts with a passion for flying and an innate desire to push the bounds of
-                                    airspace like they have never been before.</i>
-                                <br><a href="aeromodelling_club.html" class="btn btn-primary">Know More</a></p></li><br></br>
-                                    <center>
-                    <li id="club3" role="presentation"><a id="hhhh" href="http://tech-iitb.org/#f3" aria-controls="f3" role="tab" data-toggle="tab" style="font-size:30px " ><br></br>Coding Club  </a></center><p  align="left" style="font-size:18px"><img src="img/coding(1).png" alt="demo" align="left"width="300" hspace="20">
-                                  <i> The Coding Club, being the largest club in college,is instrumental in setting up the right
-                                   atmosphere for competitive coding in the college. Alongwith enabling people to develop the
-                                   unparalleled skills for coding their way through external competitions, the club often holds
-                                   contests of its own to boast the coding skills of the college. A community which allows for only
-                                   logical reasoning and which does not believe in settling on algorithms, we are always on the
-                                   quest for the better, after all there is no ‘best’ in a competition.</i><br><a href="coding_club.html" class="btn btn-primary">Know More</a>
-                                </p></li><br>
-                    <li id="club4" role="presentation"><a href="http://tech-iitb.org/#f4" aria-controls="f4" role="tab" data-toggle="tab" style="font-size:30px"><br></br>Software Community</a><p align="left" style="font-size:18px"><img src="img/softcom.png" alt="demo" align="right" width="300" hspace="20">
-                                    <i>Software innovation, like almost every other kind of innovation, requires the ability to
-                                    collaborate and share ideas with other people, and to sit down and talk with other
-                                    members and get their feedback and understand their view point. Our vision is to
-                                    unleash the full potential of the amazing software engineers in IIT Ropar by providing
-                                    whatever resources required.</i><br><a href="softcom.html" class="btn btn-primary">Know More</a>
-                                </p></li><br>
-                    <li id="club5" role="presentation"><a  id="hehe" href="http://tech-iitb.org/#f5" aria-controls="f5" role="tab" data-toggle="tab" style="font-size:30px "><br></br>       CIM Club</a><p align="left" style="font-size:18px"><img src="img/cim.png" alt="demo" align="left"width="300" hspace="20">
-                                    <i>CIM club harnesses the power of computing for simulations and designing.Computer-integrated manufacturing (CIM) is the manufacturing approach of using computers to control the entire production process.This club  bolsters 2D and 3D designing of anything and everything you can imagine.This club also deals with computer simulations of various systems CIM is an example of the implementation of information and communication technologies (ICTs) in manufacturing.</i><br><a href="CIM.html" class="btn btn-primary">Know More</a>
-                                </p></li><br>
-                    <li id="club6" role="presentation"><a href="http://tech-iitb.org/#f6" aria-controls="f6" role="tab" data-toggle="tab" style="font-size:30px"><br></br>Zentih Club</a><p align="left" style="font-size:18px"><img src="img/zenith.png" alt="demo" align="right" width="300" hspace="20">
-                                   <i> Zenith club is for all those who look up at the sky and wonder.
-                                    We conduct observation sessions to look into the night sky through our Telescope, conduct
-                                    quizzes on current and basic astronomy topics. We organize documentary screening sessions  to simplify the learning experience and encourage discussions so as to form a community and
-                                    enhance our knowledge. We also do amateur Astro-photography. We invite distinguished
-                                    professors for guest lectures who have contributed their lives in this field.
-                                    Everyone is welcome to all these events. No prior knowledge in astronomy is required, just
-                                    interest and passion for the heavens above is all we need!</i><br><a href="zenith_club.html" class="btn btn-primary">Know More</a>
-                                </p></li><br>
-                    <li id="club7" role="presentation"><a href="http://tech-iitb.org/#f7" aria-controls="f7" role="tab" data-toggle="tab" style="font-size:30px"><br></br>Finance Community</a><p align="left" style="font-size:18px"><img src="img/fincom.png" alt="demo" align="left"width="300" hspace="20">
-                                    <i>Its not a hobby, its not a passion, its a basic need of life that each and every
-                                    one of us needs whether a middle-class businessman or a CEO of MNC.
-                                    Fincom is a non core club but if someone is enthusiastic about it and has the
-                                    caliber of becoming a core in itself the club opens the wide door of analytics and
-                                    consultancy for one and apart from this the club pulls out the hidden problem
-                                    solver that hides inside all of us by making ones mind strome through various
-                                    case problems throughout the year, these problem solving skills are not just
-                                    needed for this field but these are the skills that every engineer needs throughout
-                                    his life.</i><br><a href="fincom.html" class="btn btn-primary">Know More</a>
-                                </p></li><br>
-                                <li id="club8" role="presentation"><a href="http://tech-iitb.org/#f6" aria-controls="f6" role="tab" data-toggle="tab" style="font-size:30px"><br></br>Monochrome Club</a><p align="left" style="font-size:18px"><img src="img/Logo.png" alt="demo" align="right" width="300" hspace="20">
-                                   <i> The club Monochrome is driven by the motivation of exploring without any constraint,
-                                    where our imagination are your words and your skills your pen, and when you blend
-                                    them together, you write beautiful poetry that perfectly reflects your ideology. Bringing
-                                    out the best out of the provided is also one of our motives
-                                    To provide basic knowledge of Digital design to the upcoming designers of IIT Ropar.
-                                    Also Provide them hands on experience in photoshop , illustrator and premiere pro
-                                    through design labs and help them gain experience in digital designing/editing via
-                                    enabling them to give their contribution in organising various events at IIT Ropar throughout the year.
-                                    So if you think designing is for you, then MONOChrome should definitely be on your list.</i>
-                                    <br><a href="monochrome_club.html" class="btn btn-primary">Know More</a>
-                                </p></li><br>
-                                <li id="club9" role="presentation"><a href="http://tech-iitb.org/#f7" aria-controls="f7" role="tab" data-toggle="tab" style="font-size:30px"><br></br>Automotive Club</a><p align="left" style="font-size:18px"><img src="img/automotive.png" alt="demo" align="left"width="300" hspace="20">
-                                    <i>This quote by Sir Ford was the motivation for the people who started the Automotive Club of IIT Ropar and these continuous efforts encourages the students to put their knowledge and imagination together for the astonishing outputs. Under the umbrella of the club, one will be participating in different competitions, learning about technologies and mechanics related to the automobile. Apart from this, the sessions on Computer Integrated Manufacturing will be arranged in collaboration with CIM Club, IIT Ropar.</i><a href="automotive_club.html" class="btn btn-primary">Know More</a>
+            <h1 class="center-title" text-color="text-black" style=" margin: 35px; color:black;">
+                <center> HOBBY CLUBS</center>
+            </h1>
 
-                                </p></li><br>
+
+            <div>
+                <center>
+                    <ul>
+                        <li style="text-decoration-color: black; font-size:20px"><a id="cc1" href="#club1">Robotics Club
+                        </li>
+                        <li style="font-size:20px"><a id="cc2" href="#club2">Aeromodelling Club</li>
+                        <li style="font-size:20px"><a id="cc3" href="#club3">Coding Club</li>
+                        <li style="font-size:20px"><a id="cc4" href="#club4">Software Community</li>
+                        <li style="font-size:20px"><a id="cc5" href="#club5">CIM Cub</li>
+                        <li style="font-size:20px"><a id="cc6" href="#club6">Zenith Club</li>
+                        <li style="font-size:20px"><a id="cc7" href="#club7">Finance Community</li>
+                        <li style="font-size:20px"><a id="cc8" href="#club8">Monochrome Club</li>
+                        <li style="font-size:20px "><a id="cc9" href="#club9">Automotive Club</li>
+                </center>
+                </ul>
+            </div>
+            <div style="padding: 0 2px 2px 2px;">
+                <ul class="features-tabs list-inline text-center clubsTabs" role="tablist">
+                    <li id="club1" role="presentation" class="active"><a href="http://tech-iitb.org/#f1"
+                            aria-controls="f1" role="tab" data-toggle="tab" style="font-size:30px"> Robotics Club</a>
+                        <p align="left" style="margin: 15px;font-size:18px"><img src="img/RoboticsClub.png" alt="demo"
+                                align="left" width="300" hspace="20">
+                            <i> The Robotics Club at its core is driven by fascination with being able to build things
+                                that emulate
+                                real life, or finding solutions to real-world problems through devices or bots that are
+                                a product of
+                                our collective intelligence. Developing new skills which would help us channel this
+                                fascination
+                                into tangible implementation is our primary goal. We are a community of technology
+                                enthusiasts,
+                                which envisions to build things too fantastic to be true, as if straight out of a book
+                                or a movie.</i>
+                            <br><a href="robotics_club.html" class="btn btn-primary">Know More</a>
+                        </p><br></br>
+                        <div class='col-md-1'></div>
+                        <div class="col-md-5" style="overflow: hidden">
+                            <img src="/static/assets/images/aero.png" alt="" class="img-responsive" style="height: 1px">
+                        </div>
+                    </li>
+                    <style>
+                        a.ex2:hover,
+                        a.ex2:active {
+                            font-size: 150%;
+                        }
+                    </style>
+                    <li id="club2" role="presentation"><a href="http://tech-iitb.org/#f2" aria-controls="f2" role="tab"
+                            data-toggle="tab" style="font-size:30px"><br></br>Aeromodelling Club</a>
+                        <p align="left" style="font-size:18px"><img src="img/aeromodelling.png" alt="demo" align="right"
+                                width="300" hspace="20"><i>
+                                The desire to fly is an idea handed down to us by our ancestors who...looked
+                                enviously on the birds soaring freely through space...on the infinite highway of the
+                                air.
+                                We, at Aeromodelling Club, IIT Ropar are group of aeromodelling and aviation
+                                enthusiasts with a passion for flying and an innate desire to push the bounds of
+                                airspace like they have never been before.</i>
+                            <br><a href="aeromodelling_club.html" class="btn btn-primary">Know More</a>
+                        </p>
+                    </li><br></br>
+                    <center>
+                        <li id="club3" role="presentation"><a id="hhhh" href="http://tech-iitb.org/#f3"
+                                aria-controls="f3" role="tab" data-toggle="tab" style="font-size:30px "><br></br>Coding
+                                Club </a>
+                    </center>
+                    <p align="left" style="font-size:18px"><img src="img/coding(1).png" alt="demo" align="left"
+                            width="300" hspace="20">
+                        <i> The Coding Club, being the largest club in college,is instrumental in setting up the right
+                            atmosphere for competitive coding in the college. Alongwith enabling people to develop the
+                            unparalleled skills for coding their way through external competitions, the club often holds
+                            contests of its own to boast the coding skills of the college. A community which allows for
+                            only
+                            logical reasoning and which does not believe in settling on algorithms, we are always on the
+                            quest for the better, after all there is no ‘best’ in a competition.</i><br><a
+                            href="coding_club.html" class="btn btn-primary">Know More</a>
+                    </p>
+                    </li><br>
+                    <li id="club4" role="presentation"><a href="http://tech-iitb.org/#f4" aria-controls="f4" role="tab"
+                            data-toggle="tab" style="font-size:30px"><br></br>Software Community</a>
+                        <p align="left" style="font-size:18px"><img src="img/softcom.png" alt="demo" align="right"
+                                width="300" hspace="20">
+                            <i>Software innovation, like almost every other kind of innovation, requires the ability to
+                                collaborate and share ideas with other people, and to sit down and talk with other
+                                members and get their feedback and understand their view point. Our vision is to
+                                unleash the full potential of the amazing software engineers in IIT Ropar by providing
+                                whatever resources required.</i><br><a href="softcom.html" class="btn btn-primary">Know
+                                More</a>
+                        </p>
+                    </li><br>
+                    <li id="club5" role="presentation"><a id="hehe" href="http://tech-iitb.org/#f5" aria-controls="f5"
+                            role="tab" data-toggle="tab" style="font-size:30px "><br></br> CIM Club</a>
+                        <p align="left" style="font-size:18px"><img src="img/cim.png" alt="demo" align="left"
+                                width="300" hspace="20">
+                            <i>CIM club harnesses the power of computing for simulations and
+                                designing.Computer-integrated manufacturing (CIM) is the manufacturing approach of using
+                                computers to control the entire production process.This club bolsters 2D and 3D
+                                designing of anything and everything you can imagine.This club also deals with computer
+                                simulations of various systems CIM is an example of the implementation of information
+                                and communication technologies (ICTs) in manufacturing.</i><br><a href="CIM.html"
+                                class="btn btn-primary">Know More</a>
+                        </p>
+                    </li><br>
+                    <li id="club6" role="presentation"><a href="http://tech-iitb.org/#f6" aria-controls="f6" role="tab"
+                            data-toggle="tab" style="font-size:30px"><br></br>Zentih Club</a>
+                        <p align="left" style="font-size:18px"><img src="img/zenith.png" alt="demo" align="right"
+                                width="300" hspace="20">
+                            <i> Zenith club is for all those who look up at the sky and wonder.
+                                We conduct observation sessions to look into the night sky through our Telescope,
+                                conduct
+                                quizzes on current and basic astronomy topics. We organize documentary screening
+                                sessions to simplify the learning experience and encourage discussions so as to form a
+                                community and
+                                enhance our knowledge. We also do amateur Astro-photography. We invite distinguished
+                                professors for guest lectures who have contributed their lives in this field.
+                                Everyone is welcome to all these events. No prior knowledge in astronomy is required,
+                                just
+                                interest and passion for the heavens above is all we need!</i><br><a
+                                href="zenith_club.html" class="btn btn-primary">Know More</a>
+                        </p>
+                    </li><br>
+                    <li id="club7" role="presentation"><a href="http://tech-iitb.org/#f7" aria-controls="f7" role="tab"
+                            data-toggle="tab" style="font-size:30px"><br></br>Finance Community</a>
+                        <p align="left" style="font-size:18px"><img src="img/fincom.png" alt="demo" align="left"
+                                width="300" hspace="20">
+                            <i>Its not a hobby, its not a passion, its a basic need of life that each and every
+                                one of us needs whether a middle-class businessman or a CEO of MNC.
+                                Fincom is a non core club but if someone is enthusiastic about it and has the
+                                caliber of becoming a core in itself the club opens the wide door of analytics and
+                                consultancy for one and apart from this the club pulls out the hidden problem
+                                solver that hides inside all of us by making ones mind strome through various
+                                case problems throughout the year, these problem solving skills are not just
+                                needed for this field but these are the skills that every engineer needs throughout
+                                his life.</i><br><a href="fincom.html" class="btn btn-primary">Know More</a>
+                        </p>
+                    </li><br>
+                    <li id="club8" role="presentation"><a href="http://tech-iitb.org/#f6" aria-controls="f6" role="tab"
+                            data-toggle="tab" style="font-size:30px"><br></br>Monochrome Club</a>
+                        <p align="left" style="font-size:18px"><img src="img/Logo.png" alt="demo" align="right"
+                                width="300" hspace="20">
+                            <i> The club Monochrome is driven by the motivation of exploring without any constraint,
+                                where our imagination are your words and your skills your pen, and when you blend
+                                them together, you write beautiful poetry that perfectly reflects your ideology.
+                                Bringing
+                                out the best out of the provided is also one of our motives
+                                To provide basic knowledge of Digital design to the upcoming designers of IIT Ropar.
+                                Also Provide them hands on experience in photoshop , illustrator and premiere pro
+                                through design labs and help them gain experience in digital designing/editing via
+                                enabling them to give their contribution in organising various events at IIT Ropar
+                                throughout the year.
+                                So if you think designing is for you, then MONOChrome should definitely be on your
+                                list.</i>
+                            <br><a href="monochrome_club.html" class="btn btn-primary">Know More</a>
+                        </p>
+                    </li><br>
+                    <li id="club9" role="presentation"><a href="http://tech-iitb.org/#f7" aria-controls="f7" role="tab"
+                            data-toggle="tab" style="font-size:30px"><br></br>Automotive Club</a>
+                        <p align="left" style="font-size:18px"><img src="img/automotive.png" alt="demo" align="left"
+                                width="300" hspace="20">
+                            <i>This quote by Sir Ford was the motivation for the people who started the Automotive Club
+                                of IIT Ropar and these continuous efforts encourages the students to put their knowledge
+                                and imagination together for the astonishing outputs. Under the umbrella of the club,
+                                one will be participating in different competitions, learning about technologies and
+                                mechanics related to the automobile. Apart from this, the sessions on Computer
+                                Integrated Manufacturing will be arranged in collaboration with CIM Club, IIT
+                                Ropar.</i><a href="automotive_club.html" class="btn btn-primary">Know More</a>
+
+                        </p>
+                    </li><br>
 
                 </ul>
-                
 
-    <section class="our_latest_work section_padding">
-        <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-lg-5">
-                    <div class="section_tittle text-center">
-                        
-                        <h6 class="fix-gap upper_bottom_line" style="margin-top: 25px; font-size: 30px  "><b>Innovative Programs and Technostructure</b></h6>
-                        
-                    </div>
-                </div>
-            </div>
-            <style>
-                .fix-gap{
-                    margin-top: 0px;
-                    margin-left: 0px;
-                    margin-bottom: 0px;
-                    padding: 0px;
-                }
-            </style>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="single_work">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6 col-md-6">
-                                <div class="demo_img">
-                                    <img src="img/sci-fi.jpeg" alt="demo">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="single_work_demo">
-                                    
-                                    <h3>Sci-Fi</h3>
-                                    <p><b><i>Working on the project not only requires ones skills but also demands a well-equipped working area. BOST provides the sci-fi room where one can work on the projects. It consists of several labs shared by the various clubs of BOST. The room is open 24*7 for the technical enthusiasts and provides all the necessary equipments for the projects.</i></b>  </p>
-                                    <a href="home.html" class="btn_3"> <span class="flaticon-slim-right"></span> </a>
+
+                <section class="our_latest_work section_padding">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-5">
+                                <div class="section_tittle text-center">
+
+                                    <h6 class="fix-gap upper_bottom_line" style="margin-top: 25px; font-size: 30px  ">
+                                        <b>Innovative Programs and Technostructure</b>
+                                    </h6>
+
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="single_work">
-                        <div class="row align-items-center">
-                            <div class="offset-lg-1 col-lg-4 col-md-6">
-                                <div class="single_work_demo">
-                                    <h3 style="padding-top: 20px">BOST Summer Camp</h3>
-                                    <p> <b><i>Summer holidays provide students the opportunity to learn new things while having fun at the same time. The Board Of Science And Technology comes up with the opportunity for enthusiastic students to show case their talents by providing a platform through the Summer Camp Program. If you have any technical idea,  which may lead to useful product or demonstration, BOST with its various clubs can help you technically as well as with resources. Under this program students can choose projects of their interests and work on their ideas, spending their summer breaks in a productive manner.</i></b> </p>
-                                    <a href="index.html" class="btn_3"> <span class="flaticon-slim-right"></span> </a>
+                        <style>
+                            .fix-gap {
+                                margin-top: 0px;
+                                margin-left: 0px;
+                                margin-bottom: 0px;
+                                padding: 0px;
+                            }
+                        </style>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="single_work">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="demo_img">
+                                                <img src="img/sci-fi.jpeg" alt="demo">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6">
+                                            <div class="single_work_demo">
+
+                                                <h3>Sci-Fi</h3>
+                                                <p><b><i>Working on the project not only requires ones skills but also
+                                                            demands a well-equipped working area. BOST provides the
+                                                            sci-fi room where one can work on the projects. It consists
+                                                            of several labs shared by the various clubs of BOST. The
+                                                            room is open 24*7 for the technical enthusiasts and provides
+                                                            all the necessary equipments for the projects.</i></b> </p>
+                                                <a href="home.html" class="btn_3"> <span
+                                                        class="flaticon-slim-right"></span> </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+                                <div class="single_work">
+                                    <div class="row align-items-center">
+                                        <div class="offset-lg-1 col-lg-4 col-md-6">
+                                            <div class="single_work_demo">
+                                                <h3 style="padding-top: 20px">BOST Summer Camp</h3>
+                                                <p> <b><i>Summer holidays provide students the opportunity to learn new
+                                                            things while having fun at the same time. The Board Of
+                                                            Science And Technology comes up with the opportunity for
+                                                            enthusiastic students to show case their talents by
+                                                            providing a platform through the Summer Camp Program. If you
+                                                            have any technical idea, which may lead to useful product or
+                                                            demonstration, BOST with its various clubs can help you
+                                                            technically as well as with resources. Under this program
+                                                            students can choose projects of their interests and work on
+                                                            their ideas, spending their summer breaks in a productive
+                                                            manner.</i></b> </p>
+                                                <a href="index.html" class="btn_3"> <span
+                                                        class="flaticon-slim-right"></span> </a>
+                                            </div>
+                                        </div>
+                                        <div class="offset-lg-1 col-lg-6 col-md-6">
+                                            <div class="demo_img">
+                                                <img src="img/summer_camp.JPG" alt="demo">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="single_work">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="demo_img">
+                                                <img style="width: 90%" src="img/advitiya.jpg" alt="demo">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6">
+                                            <div class="single_work_demo">
+
+                                                <h3>Advitiya</h3>
+                                                <p><i><b>The annual technical festival of IIT ropar “Adivtiya ”, marks a
+                                                            3 day journey consisting of various competitions spread
+                                                            across Robotics, Management, Coding, Designing, Gaming,
+                                                            Astronomy, Aero-modelling and Quizzing. Apart from the
+                                                            competitions, talks and workshops are few of the interesting
+                                                            events of the fest. The upcoming Advitiya is going to be
+                                                            held in February 2020. </b></i> </p>
+                                                <a href="index.html" class="btn_3"><span
+                                                        class="flaticon-slim-right"></span> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single_work">
+                                    <div class="row align-items-center">
+                                        <div class="offset-lg-1 col-lg-4 col-md-6">
+                                            <div class="single_work_demo">
+
+                                                <h3 style="padding-top: 20px">Quintessence</h3>
+                                                <p><i><b>IITs are not only the technological hub but are also known for
+                                                            amalgamating education with fun-filled extra-curricular
+                                                            activities. Every year BOST organizes IIT Ropar’s
+                                                            intra-college technical fest ‘Quintessence’. Continuing with
+                                                            that tradition, we are pleased to announce that
+                                                            Quintessence’19 will be organized in the month of November.
+                                                            As a part of this, clubs under BOST will be organizing
+                                                            several enlightening and interesting talks by eminent
+                                                            speakers and a multitude of competitions under Coding,
+                                                            Designing, Gaming, Astronomy, Aero-modelling, Robotics and
+                                                            Quizzing. Students of the institute make a great show of
+                                                            their talents in various fields by participating in these
+                                                            events.</i></b> </p>
+                                                <a href="index.html" class="btn_3"><span
+                                                        class="flaticon-slim-right"></span> </a>
+                                            </div>
+                                        </div>
+                                        <div class="offset-lg-1 col-lg-6 col-md-6">
+
+                                            <img style="width: 100%" src="img/quintessence.jpg" height="380" alt="demo">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <style>
+                                    .single_work_demo:hover {
+                                        top: -10px;
+                                        padding: 60px;
+                                        border-radius: 15px;
+                                        background-color: yellow;
+                                </style>
                             </div>
-                            <div class="offset-lg-1 col-lg-6 col-md-6">
-                                <div class="demo_img">
-                                    <img src="img/summer_camp.JPG" alt="demo">
+
+                </section>
+
+                <!-- upcoming_event part start-->
+
+
+
+
+                <section class="blog_part section_padding">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-5">
+                                <div class="section_tittle text-center">
+                                    <h2><br></br>News & Events</h2>
+
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="single_work">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6 col-md-6">
-                                <div class="demo_img">
-                                    <img style="width: 90%" src="img/advitiya.jpg" alt="demo">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="single_work_demo">
-                                    
-                                    <h3>Advitiya</h3>
-                                    <p><i><b>The annual technical festival of IIT ropar “Adivtiya ”, marks a 3 day journey consisting of various competitions spread across Robotics, Management, Coding, Designing, Gaming, Astronomy, Aero-modelling and Quizzing. Apart from the competitions, talks and workshops are few of the interesting  events of the fest. The upcoming Advitiya is going to be held in February 2020. </b></i> </p>
-                                    <a href="index.html" class="btn_3"><span class="flaticon-slim-right"></span> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single_work">
-                        <div class="row align-items-center">
-                            <div class="offset-lg-1 col-lg-4 col-md-6">
-                                <div class="single_work_demo">
-                                    
-                                    <h3 style="padding-top: 20px">Quintessence</h3>
-                                    <p><i><b>IITs are not only the technological hub but are also known for amalgamating education with fun-filled extra-curricular activities. Every year BOST organizes IIT Ropar’s intra-college technical fest ‘Quintessence’. Continuing with that tradition, we are pleased to announce that Quintessence’19 will be organized in the month of November. As a part of this, clubs under BOST will be organizing several enlightening and interesting talks by eminent speakers and a multitude of competitions under Coding, Designing, Gaming, Astronomy, Aero-modelling, Robotics and Quizzing. Students of the institute make a great show of their talents in various fields by participating in these events.</i></b>  </p>
-                                    <a href="index.html" class="btn_3"><span class="flaticon-slim-right"></span> </a>
-                                </div>
-                            </div>
-                            <div class="offset-lg-1 col-lg-6 col-md-6">
-                                
-                                    <img style="width: 100%"  src="img/quintessence.jpg"height="380" alt="demo">
-                              
-                            </div>
-                        </div>
-                    </div>
-
-                    
-                    <style>.single_work_demo:hover{
-                      top:-10px;
-                      padding: 60px;
-                      border-radius: 15px;
-                      background-color: yellow;
-                    </style>
-                </div>
-        
-    </section>
-
-    <!-- upcoming_event part start-->
-
-
-
-    
-  <section class="blog_part section_padding">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-5">
-                    <div class="section_tittle text-center">
-                       <h2><br></br>News & Events</h2>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-<!--                 <div class="col-sm-6 col-lg-4 col-xl-4 d-none d-sm-block d-lg-none">
+                        <div class="row">
+                            <!--                 <div class="col-sm-6 col-lg-4 col-xl-4 d-none d-sm-block d-lg-none">
                     <div class="single-home-blog">
                         <div class="card">
                             <img src="News-2/img/team/2.jpg" class="card-img-top" alt="blog">
@@ -686,141 +875,151 @@ To be a leader in Science and Technology we seek your support and participation 
                         </div>
                     </div>
                 </div> -->
-                
 
-                <div class="col-sm-6 col-lg-4 col-xl-4">
-                    <div class="single-home-blog">
-                        <div class="card">
-                            <img src="Squadfree/img/final.jpg" class="card-img-top" alt="blog">
-                            <div class="card-body">
-                                <a href="Squadfree/index.html">ISMP Activity</a> | <span> July 28, 2019</span>
-                                <a href="Squadfree/index.html">
-                                    <h5 class="card-title">FINCOM 737</h5>
-                                </a>
-                                <ul>
-                                    
-                                </ul>
+
+                            <div class="col-sm-6 col-lg-4 col-xl-4">
+                                <div class="single-home-blog">
+                                    <div class="card">
+                                        <img src="Squadfree/img/final.jpg" class="card-img-top" alt="blog">
+                                        <div class="card-body">
+                                            <a href="Squadfree/index.html">ISMP Activity</a> | <span> July 28,
+                                                2019</span>
+                                            <a href="Squadfree/index.html">
+                                                <h5 class="card-title">FINCOM 737</h5>
+                                            </a>
+                                            <ul>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 col-xl-4">
+                                <div class="single-home-blog">
+                                    <div class="card">
+                                        <img src="News-3/img/final.jpg" class="card-img-top" alt="blog">
+                                        <div class="card-body">
+                                            <a href="News-3/index.html">Student Activity</a> | <span> June 14,
+                                                2019</span>
+                                            <a href="News-3/index.html">
+                                                <h5 class="card-title">Student Outreach Session
+                                                </h5>
+                                            </a>
+                                            <ul>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 col-xl-4">
+                                <div class="single-home-blog">
+                                    <div class="card">
+                                        <img src="News-2/img/final.jpg" class="card-img-top" alt="blog">
+                                        <div class="card-body">
+                                            <a href="News-2/index.html">Student Activity</a> | <span> May 18,
+                                                2019</span>
+                                            <a href="News-2/index.html">
+                                                <h5 class="card-title">Student Outreach Session</h5>
+                                            </a>
+                                            <ul>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-		                    <div class="col-sm-6 col-lg-4 col-xl-4">
-                    <div class="single-home-blog">
-                        <div class="card">
-                            <img src="News-3/img/final.jpg" class="card-img-top" alt="blog">
-                            <div class="card-body">
-                                <a href="News-3/index.html">Student Activity</a> | <span> June 14, 2019</span>
-                                <a href="News-3/index.html">
-                                    <h5 class="card-title">Student Outreach Session
-                                    </h5>
-                                </a>
-                                <ul>
-                                   
-                                </ul>
+                </section>
+
+
+                <center>
+                    <h2 class="footer-heading mb-4"><br></br>Connect to us</h2>
+                </center>
+                <footer class="site-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+
+                                <div class="p-4 mb-3 bg-white">
+                                    <h4>Board of Science and Technology</h4>
+                                    <p class="mb-0 font-weight-bold">Address</p>
+                                    <p class="mb-4">Nangal Rd, Hussainpur, Rupnagar<br> Punjab, India 140001</p>
+
+                                    <p class="mb-0 font-weight-bold">Phone</p>
+                                    <p class="mb-4"><a href="#"> General Secretary:: +91 8619174962</a></p>
+
+                                    <p class="mb-0 font-weight-bold">Email Address</p>
+                                    <p class="mb-0"><a href="#">General Secretary:: gs.tech@iitrpr.ac.in</a></p>
+
+                                </div>
+                            </div>
+                            <div>
+                                <h4 style="margin-top: 30px " class="footer-heading mb-4">Reach Us</h4>
+
+                                <a href="https://www.facebook.com/IIT-Ropar-262431593827848/?ref=br_rs"> <i
+                                        style="font-size:50px; padding-right:20px" class="ti-facebook"></i> </a>
+                                <a
+                                    href="https://twitter.com/iitrpr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                                    <i style="font-size:50px;padding-right:20px" class="ti-twitter-alt"></i> </a>
+                                <a href="https://www.instagram.com/iitropar/?hl=en"> <i style="font-size:50px"
+                                        class="ti-instagram"></i> </a>
+
+                            </div>
+                            <div class="col-md-3 ml-auto">
+                                <div>
+                                    <h4 style="margin-top: 30px" class="footer-heading mb-4">Links</h4>
+                                    <ul class="list-unstyled">
+                                        <li><a href="index.html">About Us</a></li>
+                                        <li><a href="#">Advitiya</a></li>
+                                        <li><a href="#">Quintessence</a></li>
+                                        <li><a href="contact.html">Contact Us</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
+
                     </div>
-                </div>
-		    <div class="col-sm-6 col-lg-4 col-xl-4">
-                    <div class="single-home-blog">
-                        <div class="card">
-                            <img src="News-2/img/final.jpg" class="card-img-top" alt="blog">
-                            <div class="card-body">
-                                <a href="News-2/index.html">Student Activity</a> | <span> May 18, 2019</span>
-                                <a href="News-2/index.html">
-                                    <h5 class="card-title">Student Outreach Session</h5>
-                                </a>
-                                <ul>
-                                    
-                                </ul>
-                            </div>
+                    <div class=" text-center">
+                        <div class="col-md-12">
+
+                            <p>
+
+                                Copyright &copy;
+                                <script>document.write(new Date().getFullYear());</script> All rights reserved IIT Ropar
+
+                            </p>
+
                         </div>
+
                     </div>
-                </div>
             </div>
-        </div>
-    </section>
-     
+            </footer>
+            <!-- footer part end-->
 
-<center>
-	<h2 class="footer-heading mb-4"><br></br>Connect to us</h2></center>
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-        	<div class="col-md-5">
-            
-            <div class="p-4 mb-3 bg-white">
-            	 <h4>Board of Science and Technology</h4>
-              <p class="mb-0 font-weight-bold">Address</p>
-              <p class="mb-4">Nangal Rd, Hussainpur, Rupnagar<br> Punjab, India 140001</p>
-
-              <p class="mb-0 font-weight-bold">Phone</p>
-              <p class="mb-4"><a href="#"> General Secretary:: +91 8619174962</a></p>
-
-              <p class="mb-0 font-weight-bold">Email Address</p>
-              <p class="mb-0"><a href="#">General Secretary:: gs.tech@iitrpr.ac.in</a></p>
-
-            </div>
-        </div>  	<div>
-                <h4 style="margin-top: 30px " class="footer-heading mb-4">Reach Us</h4>
-
-                 <a href="https://www.facebook.com/IIT-Ropar-262431593827848/?ref=br_rs"> <i style="font-size:50px; padding-right:20px" class="ti-facebook"></i> </a>
-                            <a href="https://twitter.com/iitrpr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> <i style="font-size:50px;padding-right:20px" class="ti-twitter-alt"></i> </a>
-                            <a href="https://www.instagram.com/iitropar/?hl=en"> <i style="font-size:50px" class="ti-instagram"></i> </a>
-                            
-            </div>
-   <div class="col-md-3 ml-auto">
-   	<div>
-                <h4 style="margin-top: 30px" class="footer-heading mb-4">Links</h4>
-                <ul class="list-unstyled">
-                  <li><a href="index.html">About Us</a></li>
-                  <li><a href="#">Advitiya</a></li>
-                  <li><a href="#">Quintessence</a></li>
-                  <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-              </div>
-              </div>
-    </div>
-          
-        </div>
-        <div class=" text-center">
-          <div class="col-md-12">
-            
-            <p>
-      
-        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved IIT Ropar
-    
-      </p>
-            
-          </div>
-          
-        </div>
-      </div>
-    </footer>
-    <!-- footer part end-->
-
-    <!-- jquery plugins here-->
-    <!-- jquery -->
-    <script src="js/jquery-1.12.1.min.js"></script>
-    <!-- popper js -->
-    <script src="js/popper.min.js"></script>
-    <!-- bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- easing js -->
-    <script src="js/jquery.magnific-popup.js"></script>
-    <!-- swiper js -->
-    <script src="js/swiper.min.js"></script>
-    <!-- swiper js -->
-    <script src="js/masonry.pkgd.js"></script>
-    <!-- particles js -->
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/owl.carousel2.thumbs.min.js"></script>
-    <!-- swiper js -->
-    <script src="js/slick.min.js"></script>
-    <!-- custom js -->
-    <script src="js/custom.js"></script>
+            <!-- jquery plugins here-->
+            <!-- jquery -->
+            <script src="js/jquery-1.12.1.min.js"></script>
+            <!-- popper js -->
+            <script src="js/popper.min.js"></script>
+            <!-- bootstrap js -->
+            <script src="js/bootstrap.min.js"></script>
+            <!-- easing js -->
+            <script src="js/jquery.magnific-popup.js"></script>
+            <!-- swiper js -->
+            <script src="js/swiper.min.js"></script>
+            <!-- swiper js -->
+            <script src="js/masonry.pkgd.js"></script>
+            <!-- particles js -->
+            <script src="js/owl.carousel.min.js"></script>
+            <script src="js/jquery.counterup.min.js"></script>
+            <script src="js/waypoints.min.js"></script>
+            <script src="js/owl.carousel2.thumbs.min.js"></script>
+            <!-- swiper js -->
+            <script src="js/slick.min.js"></script>
+            <!-- custom js -->
+            <script src="js/custom.js"></script>
 </body>
 
 </html>
