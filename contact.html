@@ -28,60 +28,16 @@
 
 <body>
     <!--::header part start::-->
-    <header class="main_menu">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="index.html"><img src="img/bost.png" alt="logo"> <img src="img/final2.png" alt="logo"> </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-
-                        <div class="collapse navbar-collapse main-menu-item justify-content-end"
-                            id="navbarSupportedContent">
-                            <ul class="navbar-nav">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">Home</a>
-                                </li>
-                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="our_team.html">Our Team</a>
-                                        <a class="dropdown-item" href="index.html">Alumni</a>
-                                        
-                                    </div>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="our_team.html">People</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Clubs</a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="robotics_club.html">Robotics Club</a>
-                                        <a class="dropdown-item" href="aeromodelling_club.html">Aeromodelling Club</a>
-                                        <a class="dropdown-item" href="coding_club.html">Coding Club</a>
-                                        <a class="dropdown-item" href="softcom.html">Software Community</a>
-                                        <a class="dropdown-item" href="CIM.html">CIM Club</a>
-                                        <a class="dropdown-item" href="automotive_club.html">Automotive Club</a>
-                                        <a class="dropdown-item" href="fincom.html">Finance Community</a>
-                                        <a class="dropdown-item" href="zenith_club.html">Zenith Club</a>
-                                        <a class="dropdown-item" href="monochrome_club.html">Monochrome Club</a>
-                                    </div>
-                                </li>
-                                
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
+    <header class="main_menu home_menu" style="background-color:white">
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-lg-12">
+                  <div class="nav-cover">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </header>
     <!-- Header part end-->
 
     <!-- breadcrumb start-->
@@ -104,7 +60,7 @@
   <!-- ================ contact section start ================= -->
   
       <center>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92964.17395673176!2d76.41648215247592!3d30.95088933764319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x867513a2a1b7fbbd!2sIndian+Institute+of+Technology+Ropar+(IIT+Ropar)!5e0!3m2!1sen!2sin!4v1563258536091!5m2!1sen!2sin" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92964.17395673176!2d76.41648215247592!3d30.95088933764319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x867513a2a1b7fbbd!2sIndian+Institute+of+Technology+Ropar+(IIT+Ropar)!5e0!3m2!1sen!2sin!4v1563258536091!5m2!1sen!2sin" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
 </center>
 
       <div class="row">
@@ -255,6 +211,12 @@
 <script src="js/slick.min.js"></script>
 <!-- custom js -->
 <script src="js/custom.js"></script>
+<script>
+  /*Navbar*/
+  $(document).ready(function () {
+      $(".nav-cover").load("nav.html");
+  });
+</script>
 </body>
 
 </html>

@@ -14,6 +14,7 @@
         autoplay: true,
         dots: true,
         responsiveRefreshRate: 200,
+        autoplayTimeout:20000,
         navText: true,
       })
       .on("changed.owl.carousel", syncPosition);
@@ -25,13 +26,9 @@
       .owlCarousel({
         items: slidesPerPage,
         dots: false,
-        smartSpeed: 200,
-        slideSpeed: 1000,
         margin: 0,
-        autoplay: true,
-        autoplayTimeout: 15000,
-        autoplayHoverPause: true,
-        slideBy: 1, //alternatively you can slide by 1, this way the active slide will stick to the first item in the second carousel
+        autoplayTimeout:20000,
+        slideBy: 1,
         responsiveRefreshRate: 100,
         nav: true,
         navText: [
