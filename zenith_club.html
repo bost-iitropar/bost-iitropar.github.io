@@ -1,131 +1,327 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <style>
-    body {
-      background-image: url("img/stars.jpg");
-      padding: 0;
-      margin: 0;
-    }
 
-    #nav-toggle-button span {
-      background-color: black;
-    }
-  </style>
-
+  <title>Zenith | IIT Ropar</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Zenith Club | IITRPR</title>
-  <link rel="icon" href="img/bost.png">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/themify-icons.css">
-  <link rel="stylesheet" href="css/flaticon.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">    
+  <style>
+  body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+  }
+  h1 {
+    display: inline-block;
+  }
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #333333;
+    font-weight: 400;
+    margin-bottom: 30px;
+  } 
+  
+  .jumbotron {
+    background-image:url('img/zenith/milky.webp');
+    color: #fff;
+    padding: 100px 450px;
+    font-family: Montserrat, sans-serif;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+
+  .logo {
+    color: #272b2e;
+    font-size: 200px;
+  }
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #272b2e;
+  }
+  .carousel-indicators li {
+    border-color: #272b2e;
+  }
+  .carousel-indicators li.active {
+    background-color: #272b2e;
+  }
+  .item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+  .item span {
+    font-style: normal;
+  }
+  .panel {
+    border: 1px solid #272b2e; 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+    border: 1px solid #272b2e;
+    background-color: #fff !important;
+    color: #272b2e;
+  }
+  .panel-heading {
+    color: #fff !important;
+    background-color: #272b2e !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+    background-color: white !important;
+  }
+  .panel-footer h3 {
+    font-size: 32px;
+  }
+  .panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+  }
+  .panel-footer .btn {
+    margin: 15px 0;
+    background-color: #272b2e;
+    color: #fff;
+  }
+  .navbar {
+    margin-bottom: 0;
+    background-color: #272b2e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, p,.navbar .navbar-brand {
+    color: #ffffff !important;
+    
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #272b2e !important;
+    background-color: #fff !important;
+  
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #000000 !important;
+    
+  }
+  footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #272b2e;
+  }
+  .btn-primary {
+  background-color: #272b2e;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  margin: 0px 4px;
+}
+.button1:hover {
+  background-color: white; 
+  color: black; 
+}
+.button1 {
+  background-color: #272b2e;
+  color: white;
+}
+.button1:active {
+  background-color: #272b2e;
+  color: white;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  margin: 10px 0px;
+  float: left;
+  display: inline;
+}
+  .slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
+  }
+  </style>
 </head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-<body>
-  <header class="main_menu home_menu" style="background-color:white">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-12">
-          <div class="nav-cover">
-          </div>
-        </div>
-      </div>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
     </div>
-  </header>
-  <section id="intro" class="intro" style="margin-top:150px;">
-    <div class="container">
-      <h2 style="font-size: 45px; text-align: center;color:red;">ZENITH CLUB </h2>
-
-      <h3 style="color:red; margin:30px 0px;">
-        <center><strong>About</strong></center>
-      </h3>
-      <p style="font-size: 20px;color: white;">Embark on a cosmic journey with Zenith—a vibrant community of stargazers, space enthusiasts, and explorers of the universe. In our club, you can expand your knowledge, engage in astronomical activities or connect with individuals who share your insatiable curiosity. We conduct regular stargazing sessions to explore the night sky with our telescope. We organize quizzes, as well as Case Studies on current and basic astronomy topics to enhance our knowledge about the recent events and challenges as well as explore the depths of Physics. We also do amateur Astro-photography. We invite distinguished professors for guest lectures who have contributed their lives in this field. Everyone is welcome to all these events. No prior knowledge in astronomy is required, just interest and passion for the heavens above is all we need!</p>
-
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#construction">OUR TEAM</a></li>
+        <li><a href="">EVENTS</a></li>
+        <li><a href="">GALLERY</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
     </div>
-    <h3 style="color:red; margin:30px 0px;">
-      <center><strong>Gallery</strong></center>
-    </h3>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <a target="_blank" href="img/zenith/image1.jpeg">
-            <img src="img/zenith/image1.jpeg">
-          </a>
-        </div>
-        <div class="col-md-4">
-          <a target="_blank" href="img/zenith/image2.jpg">
-            <img src="img/zenith/image2.jpg">
-          </a>
-        </div>
-        <div class="col-md-4">
-          <a target="_blank" href="img/zenith/image4.jpg">
-            <img src="img/zenith/image4.jpg">
-          </a>
-        </div>
-      </div>
+  </div>
+</nav>
+<div class="jumbotron text-center">
+  <img src="img/zenith/zenith.png" alt="LOGO" height="150" width="150">
+  <h1>ZENITH</h1> 
+  <p>The Physics and Astronomy Club</p> 
+</div>
+
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>About Us</h2><br>
+      <h4>Embark on a cosmic journey with Zenith-a vibrant community of stargazers, space enthusiasts, and explorers of the universe. In our club, you can expand your knowledge, engage in astronomical activities or connect with individuals who share your insatiable curiosity. We conduct regular stargazing sessions to explore the night sky with our telescope. We organize quizzes, as well as Case Studies on current and basic astronomy topics to enhance our knowledge about the recent events and challenges as well as explore the depths of Physics. We also do amateur Astro-photography. We invite distinguished professors for guest lectures who have contributed their lives in this field. Everyone is welcome to all these events. No prior knowledge in astronomy is required, just interest and passion for the heavens above is all we need!</h4><br>
     </div>
-    <!-- Footer -->
-    <div class="container" style="text-align:center; font-weight:600">
-      <div class="row" style="margin:20px 0px;">
-        <h2 style="padding-top: 20px;color:red; width:100%">Connect to us</h2>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="widget-contact">
-            <a style="font-size: 25px; " href="index.html">Board of Science and Technology</a>
-            <p style="color:white;" class="mb-0 font-weight-bold"><strong>Address</strong></p>
-            <p class="mb-4"><a style="color:white;" href="#">Nangal Rd, Hussainpur, Rupnagar<br> Punjab India
-                140001</a></p>
-
-            <p style="color:white;" class="mb-0 font-weight-bold"><strong>Phone</strong> </p>
-            <p class="mb-4"><a style="color:white;" href="#">General Secretary:: +91 76270 00977</a></p>
-
-            <p style="color:white;" class="mb-0 font-weight-bold"><strong>Email Address</strong></p>
-            <p class="mb-0"><a style="color:white;" href="#">General Secretary:: gs.tech@iitrpr.ac.in</a></p>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <h4 style="color:white;">We're on social networks
-            <br>
-          </h4>
-          <a style="font-size:40px;" href="https://www.facebook.com/IIT-Ropar-262431593827848/?ref=br_rs"
-            class="fa fa-facebook"></a>
-          <a style="font-size:40px;"
-            href="https://twitter.com/iitrpr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
-            class="fa fa-twitter"></a>
-          <a style="font-size:40px;" href="https://www.instagram.com/iitropar/?hl=en" class="fa fa-instagram"></a>
-        </div>
-      </div>
-      <div class="row" style="color:#aaa; margin:20px 0px;">
-        <div style="width:100%">All rights reserved @IIT Ropar</div>
-      </div>
+    <div class="col-sm-4">
+      <img src="img/zenith/about.png" alt="LOGO" height="500" width="500">
     </div>
+  </div>
+</div>
 
-    <script src="js/jquery-1.12.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.js"></script>
-    <script src="js/swiper.min.js"></script>
-    <script src="js/masonry.pkgd.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/owl.carousel2.thumbs.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/custom.js"></script>
-    <script>
-      /*Navbar*/
-      $(document).ready(function () {
-        $(".nav-cover").load("nav.html");
+<div id="construction" class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-wrench logo"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>UNDER CONSTRUCTION!</h2><br>
+    </div>
+  </div>
+</div>
+
+<div id="contact" class="container-fluid bg-grey">
+  <h2>CONTACT US</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <h4><span class="glyphicon glyphicon-map-marker"></span>  IIT Ropar, Rupnagar, Punjab, India</h4>
+      <h4><span class="glyphicon glyphicon-phone"></span>  +91 7780973584</h4>
+      <h4><span class="glyphicon glyphicon-envelope"></span>  zenithclub@iitrpr.ac.in</h4>
+      <h4><span class="bi bi-instagram"></span>  zenith_iit_ropar</h4>
+    
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+</footer>
+
+<script>
+$(document).ready(function(){
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+        window.location.hash = hash;
       });
-    </script>
-</body>
+    } 
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
 
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
 </html>
