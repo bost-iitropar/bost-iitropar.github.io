@@ -9,7 +9,7 @@
             -webkit-animation-duration: 2s;
             animation-name: fade;
             animation-duration: 2s;
-            padding=0px !important;
+            padding: 0px !important;
         }
 
         #hehe {
@@ -21,42 +21,10 @@
             font-size: 20px;
         }
 
-        #cc1 {
-            color: white;
+        .ahc {
+            display: flex;
+            justify-content: center;
         }
-
-        #cc2 {
-            color: white;
-        }
-
-        #cc3 {
-            color: white;
-        }
-
-        #cc4 {
-            color: white;
-        }
-
-        #cc5 {
-            color: white;
-        }
-
-        #cc6 {
-            color: white;
-        }
-
-        #cc7 {
-            color: white;
-        }
-
-        #cc8 {
-            color: white;
-        }
-
-        #cc9 {
-            color: white;
-        }
-
 
         @keyframes fade {
             from {
@@ -83,16 +51,158 @@
                 padding: 10px 8px;
             }
         }
-        body {
-        background-image: url("img/stars.jpg");
-        padding: 0;
-        margin: 0;
-        }
 
         #nav-toggle-button span {
-        background-color: black;
+            background-color: black;
+        }
+
+        .br {
+            display: block;
+            margin-top: 0em;
+            margin-bottom: 0em;
+        }
+
+        a.ex2:hover,
+        a.ex2:active {
+            font-size: 150%;
+        }
+
+
+        .team-mem {
+            width: 100%;
+            overflow: hidden;
+            font-family: 'Raleway';
+            position: relative;
+            transition: all 0.2s ease-in-out;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .team-mem .img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 70%;
+            display: flex;
+            margin: auto;
+        }
+
+        .team-mem img {
+            transition: all 0.2s ease-in-out;
+        }
+
+        .team-mem .det {
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .team-mem .det .name {
+            font-size: 24px;
+            font-family: 'Staatliches';
+            color: white;
+            transition: all 0.2s ease-in-out;
+            margin-top: 5px;
+        }
+
+        .team-mem .det .club {
+            color: white;
+            font-size: 16px;
+        }
+
+        .team-mem .det-hid {
+            position: absolute;
+            width: 80%;
+            overflow: hidden;
+            transition: all 0.2s ease-in-out;
+            opacity: 0;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+            text-align: center !important;
+        }
+
+        .team-mem .det-hid .des {
+            color: #ccc;
+            padding: 5px;
+            margin-bottom: 5px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+
+        .team-mem:hover .det-hid {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+
+        .team-mem:hover img {
+            opacity: 0.2;
+        }
+
+        .team-mem:hover .name {
+            color: #18A664;
+        }
+
+        .head {
+            font-family: 'Lato';
+            letter-spacing: 3px;
+            font-size: 28px;
+            color: white;
+            width: 100%;
+            text-align: center;
+            font-weight: 700;
+            margin: 50px 0px 20px 0px;
+        }
+
+        body {
+            background-image: url("img/stars.jpg");
+            padding: 0;
+            position: relative;
+            margin: 0;
+        }
+
+        .video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+            opacity: 0.5;
+        }
+
+        .video-container video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+        }
+
+        .fw-normal {
+            font-weight: 400 !important;
+        }
+
+        .svg-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .bi {
+            vertical-align: -0.125em;
+            fill: currentColor;
         }
     </style>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -113,9 +223,30 @@
     <link rel="stylesheet" href="css/style.css">
     <!--icon library CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adv.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div class="video-container">
+        <video autoplay loop muted>
+            <source src="bg.mp4" type="video/mp4">
+        </video>
+    </div>
+
     <!--::header part start::-->
     <header class="main_menu home_menu">
         <div class="container">
@@ -145,13 +276,6 @@
             </ol>
             <div class="carousel-inner " role="listbox">
 
-                <!-- <div class="carousel-item active">
-        <img  class="d-block w-100 h-150"  src="img/quintessence.png" height="600" alt="Third slide">
-        <div class="carousel-caption d-none d-md-block">
-          
-         
-        </div>
-      </div> -->
 
                 <div class="carousel-item active">
                     <img class="d-block w-100 h-150" src="img/second.JPG" height="600" width="700" alt="Third slide">
@@ -202,11 +326,13 @@
                         <div class="cta_part_text">
                             <p style="font-family:sans-serif; font-size: xx-large; color: white"><strong>WE MAKE
                                     IT HAPPEN</strong></p>
-                            <h1 style="font-family:sans-serif; color: white">Science and Technology Clubs are set up to kindle and nurture the love for
-                                    technology, each club with its own specialization and guest lectures by prominent
-                                    personalities in the world of technology and science.<br>
-                                    </br>
-                                </h1>
+                            <h1 style="font-family:sans-serif; color: white">Science and Technology Clubs are set up
+                                to
+                                kindle and nurture the love for
+                                technology, each club with its own specialization and guest lectures by prominent
+                                personalities in the world of technology and science.<br>
+                                </br>
+                            </h1>
                         </div>
                     </div>
                 </div>
@@ -220,7 +346,7 @@
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-lg-5">
-                    <div class="section_tittle text-center"; style="color: white">
+                    <div class="section_tittle text-center" ; style="color: white">
 
                         <h2 class=Helping style="color: white"><br></br> People's Say</h2>
                     </div>
@@ -237,63 +363,87 @@
                                 <div class="owl-carousel owl-theme" id="sync2">
                                     <div class="owl-thumb-item">
                                         <div class="slider-thumbnails">
-                                            <img src="img/deansa.png" height="500" width="500" alt="slideimg"
-                                                class="image">
+                                            <img src="img/deansa.jpg" height="500" width="500" alt="slideimg"
+                                                class="image rounded-circle">
                                         </div>
                                     </div>
                                     <div class="owl-thumb-item">
                                         <div class="slider-thumbnails">
-                                            <img src="img/faculty.png" alt="slideimg" class="image">
+                                            <img src="img/faculty.jpeg" alt="slideimg" class="image rounded-circle">
                                         </div>
                                     </div>
                                     <div class="owl-thumb-item">
                                         <div class="slider-thumbnails">
-                                            <img src="img/gsecy.png" alt="slideimg" class="image">
+                                            <img src="img/associate_faculty.jpeg" alt="slideimg"
+                                                class="image rounded-circle">
                                         </div>
                                     </div>
                                     <div class="owl-thumb-item">
                                         <div class="slider-thumbnails">
-                                            <img src="img/deansa.png" alt="slideimg" class="image">
+                                            <img src="img/gsecy.jpg" alt="slideimg" class="image rounded-circle">
                                         </div>
                                     </div>
                                     <div class="owl-thumb-item">
                                         <div class="slider-thumbnails">
-                                            <img src="img/faculty.png" alt="slideimg" class="image">
+                                            <img src="img/deansa.jpg" alt="slideimg" class="image rounded-circle">
                                         </div>
                                     </div>
                                     <div class="owl-thumb-item">
                                         <div class="slider-thumbnails">
-                                            <img src="img/gsecy.png" alt="slideimg" class="image">
+                                            <img src="img/faculty.jpeg" alt="slideimg" class="image rounded-circle">
                                         </div>
                                     </div>
                                     <div class="owl-thumb-item">
                                         <div class="slider-thumbnails">
-                                            <img src="img/deansa.png" alt="slideimg" class="image">
+                                            <img src="img/associate_faculty.jpeg" alt="slideimg"
+                                                class="image rounded-circle">
                                         </div>
                                     </div>
                                     <div class="owl-thumb-item">
                                         <div class="slider-thumbnails">
-                                            <img src="img/faculty.png" alt="slideimg" class="image">
+                                            <img src="img/gsecy.jpg" alt="slideimg" class="image rounded-circle">
                                         </div>
                                     </div>
                                     <div class="owl-thumb-item">
                                         <div class="slider-thumbnails">
-                                            <img src="img/gsecy.png" alt="slideimg" class="image">
+                                            <img src="img/deansa.jpg" alt="slideimg" class="image rounded-circle">
                                         </div>
                                     </div>
                                     <div class="owl-thumb-item">
                                         <div class="slider-thumbnails">
-                                            <img src="img/deansa.png" alt="slideimg" class="image">
+                                            <img src="img/faculty.jpeg" alt="slideimg" class="image rounded-circle">
                                         </div>
                                     </div>
                                     <div class="owl-thumb-item">
                                         <div class="slider-thumbnails">
-                                            <img src="img/faculty.png" alt="slideimg" class="image">
+                                            <img src="img/associate_faculty.jpeg" alt="slideimg"
+                                                class="image rounded-circle">
                                         </div>
                                     </div>
                                     <div class="owl-thumb-item">
                                         <div class="slider-thumbnails">
-                                            <img src="img/gsecy.png" alt="slideimg" class="image">
+                                            <img src="img/gsecy.jpg" alt="slideimg" class="image rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="owl-thumb-item">
+                                        <div class="slider-thumbnails">
+                                            <img src="img/deansa.jpg" alt="slideimg" class="image rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="owl-thumb-item">
+                                        <div class="slider-thumbnails">
+                                            <img src="img/faculty.jpeg" alt="slideimg" class="image rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="owl-thumb-item">
+                                        <div class="slider-thumbnails">
+                                            <img src="img/associate_faculty.jpeg" alt="slideimg"
+                                                class="image rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="owl-thumb-item">
+                                        <div class="slider-thumbnails">
+                                            <img src="img/gsecy.jpg" alt="slideimg" class="image rounded-circle">
                                         </div>
                                     </div>
                                 </div>
@@ -301,158 +451,242 @@
                             <div class="col-lg-12">
                                 <div class="slider owl-carousel owl-theme" id="sync1">
                                     <div class="client_review_text">
-                                        <p style="color: white">What I understand the duty of student affairs (SA) is to create an
-                                            environment to students to participate in various academic and non-academic
-                                            activities, while judiciously ensuring discipline and security, for making
+                                        <p style="color: white">What I understand the duty of student affairs (SA)
+                                            is to
+                                            create an
+                                            environment to students to participate in various academic and
+                                            non-academic
+                                            activities, while judiciously ensuring discipline and security, for
+                                            making
                                             them global "learned" leaders with utmost satisfaction on their
-                                            understanding, knowledge and experience gained while staying at campus. I
+                                            understanding, knowledge and experience gained while staying at campus.
+                                            I
                                             strongly believe that, our students have huge potential to become world
                                             leaders and SA team is working hard to ensure this happen !</p>
-                                        <img src="img/bost.png" alt="#">
                                         <div class="client_info">
-                                            <h3 style="color: white">Dr. C. C. Reddy</h3>
+                                            <h3 style="color: white">Dr. S. C. Martha</h3>
                                             <h5 style="color: white">Dean Student Affairs</h5>
                                         </div>
                                     </div>
                                     <div class="client_review_text">
-                                        <p style="color: white">Own midst. Behold sea created male he together of That Said fourth deep
+                                        <p style="color: white">Own midst. Behold sea created male he together of
+                                            That
+                                            Said fourth deep
                                             abundantly
                                             have light night beginning rule darkness seed darkness which land saying
                                             moveth.
                                             Fifth shall wont signs, can seasons green days gathered great</p>
-                                        <img src="img/bost.png" alt="#">
                                         <div class="client_info">
-                                            <h3 style="color: white">Dr. Neeraj Goel</h3>
+                                            <h3 style="color: white">Dr. Ashwani Sharma</h3>
                                             <h5 style="color: white">Faculty Advisor, BOST</h5>
                                         </div>
                                     </div>
                                     <div class="client_review_text">
-                                        <p style="color: white">BOST is a place for dreamers,innovators and out of the box thinkers with
-                                            various club here guided by enthusiastic people one can learn ,innovate ,
+                                        <p style="color: white">Own midst. Behold sea created male he together of
+                                            That
+                                            Said fourth deep
+                                            abundantly
+                                            have light night beginning rule darkness seed darkness which land saying
+                                            moveth.
+                                            Fifth shall wont signs, can seasons green days gathered great</p>
+                                        <div class="client_info">
+                                            <h3 style="color: white">Dr. Shashi Shekhar Jha</h3>
+                                            <h5 style="color: white">Associate Faculty Advisor, BOST</h5>
+                                        </div>
+                                    </div>
+                                    <div class="client_review_text">
+                                        <p style="color: white">BOST is a place for dreamers,innovators and out of
+                                            the
+                                            box thinkers with
+                                            various club here guided by enthusiastic people one can learn ,innovate
+                                            ,
                                             build and own the future.
                                             To be a leader in Science and Technology we seek your support and
-                                            participation in this strive of ours. So pick up a club which fascinates you
+                                            participation in this strive of ours. So pick up a club which fascinates
+                                            you
                                             and join with us.</p>
-                                        <img src="img/bost.png" alt="#">
                                         <div class="client_info">
-                                            <h3 style="color: white">Mr. Anand Kumar</h3>
+                                            <h3 style="color: white">Mr. Mehul Gupta</h3>
                                             <h5 style="color: white">General Secretary, BOST</h5>
                                         </div>
                                     </div>
                                     <div class="client_review_text">
-                                        <p style="color: white">What I understand the duty of student affairs (SA) is to create an
-                                            environment to students to participate in various academic and non-academic
-                                            activities, while judiciously ensuring discipline and security, for making
+                                        <p style="color: white">What I understand the duty of student affairs (SA)
+                                            is to
+                                            create an
+                                            environment to students to participate in various academic and
+                                            non-academic
+                                            activities, while judiciously ensuring discipline and security, for
+                                            making
                                             them global "learned" leaders with utmost satisfaction on their
-                                            understanding, knowledge and experience gained while staying at campus. I
+                                            understanding, knowledge and experience gained while staying at campus.
+                                            I
                                             strongly believe that, our students have huge potential to become world
                                             leaders and SA team is working hard to ensure this happen !</p>
-                                        <img src="img/bost.png" alt="#">
                                         <div class="client_info">
-                                            <h3 style="color: white">Dr. C. C. Reddy</h3>
+                                            <h3 style="color: white">Dr. S. C. Martha</h3>
                                             <h5 style="color: white">Dean Student Affairs</h5>
                                         </div>
                                     </div>
                                     <div class="client_review_text">
-                                        <p style="color: white">Own midst. Behold sea created male he together of That Said fourth deep
+                                        <p style="color: white">Own midst. Behold sea created male he together of
+                                            That
+                                            Said fourth deep
                                             abundantly
                                             have light night beginning rule darkness seed darkness which land saying
                                             moveth.
                                             Fifth shall wont signs, can seasons green days gathered great</p>
-                                        <img src="img/bost.png" alt="#">
                                         <div class="client_info">
-                                            <h3 style="color: white">Dr. Neeraj Goel</h3>
+                                            <h3 style="color: white">Dr. Ashwani Sharma</h3>
                                             <h5 style="color: white">Faculty Advisor, BOST</h5>
                                         </div>
                                     </div>
                                     <div class="client_review_text">
-                                        <p style="color: white">BOST is a place for dreamers,innovators and out of the box thinkers with
-                                            various club here guided by enthusiastic people one can learn ,innovate ,
+                                        <p style="color: white">Own midst. Behold sea created male he together of
+                                            That
+                                            Said fourth deep
+                                            abundantly
+                                            have light night beginning rule darkness seed darkness which land saying
+                                            moveth.
+                                            Fifth shall wont signs, can seasons green days gathered great</p>
+                                        <div class="client_info">
+                                            <h3 style="color: white">Dr. Shashi Shekhar Jha</h3>
+                                            <h5 style="color: white">Associate Faculty Advisor, BOST</h5>
+                                        </div>
+                                    </div>
+                                    <div class="client_review_text">
+                                        <p style="color: white">BOST is a place for dreamers,innovators and out of
+                                            the
+                                            box thinkers with
+                                            various club here guided by enthusiastic people one can learn ,innovate
+                                            ,
                                             build and own the future.
                                             To be a leader in Science and Technology we seek your support and
-                                            participation in this strive of ours. So pick up a club which fascinates you
+                                            participation in this strive of ours. So pick up a club which fascinates
+                                            you
                                             and join with us!</p>
-                                        <img src="img/bost.png" alt="#">
                                         <div class="client_info">
-                                            <h3 style="color: white">Mr. Anand Kumar</h3>
+                                            <h3 style="color: white">Mr. Mehul Gupta</h3>
                                             <h5 style="color: white">General Secretary, BOST</h5>
                                         </div>
                                     </div>
                                     <div class="client_review_text">
-                                        <p style="color: white">What I understand the duty of student affairs (SA) is to create an
-                                            environment to students to participate in various academic and non-academic
-                                            activities, while judiciously ensuring discipline and security, for making
+                                        <p style="color: white">What I understand the duty of student affairs (SA)
+                                            is to
+                                            create an
+                                            environment to students to participate in various academic and
+                                            non-academic
+                                            activities, while judiciously ensuring discipline and security, for
+                                            making
                                             them global "learned" leaders with utmost satisfaction on their
-                                            understanding, knowledge and experience gained while staying at campus. I
+                                            understanding, knowledge and experience gained while staying at campus.
+                                            I
                                             strongly believe that, our students have huge potential to become world
                                             leaders and SA team is working hard to ensure this happen !</p>
-                                        <img src="img/bost.png" alt="#">
                                         <div class="client_info">
-                                            <h3 style="color: white">Dr. C. C. Reddy</h3>
+                                            <h3 style="color: white">Dr. S. C. Martha</h3>
                                             <h5 style="color: white">Dean Student Affairs</h5>
                                         </div>
                                     </div>
                                     <div class="client_review_text">
-                                        <p style="color: white">Own midst. Behold sea created male he together of That Said fourth deep
+                                        <p style="color: white">Own midst. Behold sea created male he together of
+                                            That
+                                            Said fourth deep
                                             abundantly
                                             have light night beginning rule darkness seed darkness which land saying
                                             moveth.
                                             Fifth shall wont signs, can seasons green days gathered great</p>
-                                        <img src="img/bost.png" alt="#">
                                         <div class="client_info">
-                                            <h3 style="color: white">Dr. Neeraj Goel</h3>
+                                            <h3 style="color: white">Dr. Ashwani Sharma</h3>
                                             <h5 style="color: white">Faculty Advisor, BOST</h5>
                                         </div>
                                     </div>
                                     <div class="client_review_text">
-                                        <p style="color: white">BOST is a place for dreamers,innovators and out of the box thinkers with
-                                            various club here guided by enthusiastic people one can learn ,innovate ,
+                                        <p style="color: white">Own midst. Behold sea created male he together of
+                                            That
+                                            Said fourth deep
+                                            abundantly
+                                            have light night beginning rule darkness seed darkness which land saying
+                                            moveth.
+                                            Fifth shall wont signs, can seasons green days gathered great</p>
+                                        <div class="client_info">
+                                            <h3 style="color: white">Dr. Shashi Shekhar Jha</h3>
+                                            <h5 style="color: white">Associate Faculty Advisor, BOST</h5>
+                                        </div>
+                                    </div>
+                                    <div class="client_review_text">
+                                        <p style="color: white">BOST is a place for dreamers,innovators and out of
+                                            the
+                                            box thinkers with
+                                            various club here guided by enthusiastic people one can learn ,innovate
+                                            ,
                                             build and own the future.
                                             To be a leader in Science and Technology we seek your support and
-                                            participation in this strive of ours. So pick up a club which fascinates you
+                                            participation in this strive of ours. So pick up a club which fascinates
+                                            you
                                             and join with us!</p>
-                                        <img src="img/bost.png" alt="#">
                                         <div class="client_info">
-                                            <h3 style="color: white">Mr. Anand Kumar</h3>
+                                            <h3 style="color: white">Mr. Mehul Gupta</h3>
                                             <h5 style="color: white">General Secretary, BOST</h5>
                                         </div>
                                     </div>
                                     <div class="client_review_text">
-                                        <p style="color: white">What I understand the duty of student affairs (SA) is to create an
-                                            environment to students to participate in various academic and non-academic
-                                            activities, while judiciously ensuring discipline and security, for making
+                                        <p style="color: white">What I understand the duty of student affairs (SA)
+                                            is to
+                                            create an
+                                            environment to students to participate in various academic and
+                                            non-academic
+                                            activities, while judiciously ensuring discipline and security, for
+                                            making
                                             them global "learned" leaders with utmost satisfaction on their
-                                            understanding, knowledge and experience gained while staying at campus. I
+                                            understanding, knowledge and experience gained while staying at campus.
+                                            I
                                             strongly believe that, our students have huge potential to become world
                                             leaders and SA team is working hard to ensure this happen !</p>
-                                        <img src="img/bost.png" alt="#">
                                         <div class="client_info">
-                                            <h3 style="color: white">Dr. C. C. Reddy</h3>
+                                            <h3 style="color: white">Dr. S. C. Martha</h3>
                                             <h5 style="color: white">Dean Student Affairs</h5>
                                         </div>
                                     </div>
                                     <div class="client_review_text">
-                                        <p style="color: white">Own midst. Behold sea created male he together of That Said fourth deep
+                                        <p style="color: white">Own midst. Behold sea created male he together of
+                                            That
+                                            Said fourth deep
                                             abundantly
                                             have light night beginning rule darkness seed darkness which land saying
                                             moveth.
                                             Fifth shall wont signs, can seasons green days gathered great</p>
-                                        <img src="img/bost.png" alt="#">
                                         <div class="client_info">
-                                            <h3 style="color: white">Dr. Neeraj Goel</h3>
+                                            <h3 style="color: white">Dr. Ashwani Sharma</h3>
                                             <h5 style="color: white">Faculty Advisor, BOST</h5>
                                         </div>
                                     </div>
                                     <div class="client_review_text">
-                                        <p style="color: white">BOST is a place for dreamers,innovators and out of the box thinkers with
-                                            various club here guided by enthusiastic people one can learn ,innovate ,
+                                        <p style="color: white">Own midst. Behold sea created male he together of
+                                            That
+                                            Said fourth deep
+                                            abundantly
+                                            have light night beginning rule darkness seed darkness which land saying
+                                            moveth.
+                                            Fifth shall wont signs, can seasons green days gathered great</p>
+                                        <div class="client_info">
+                                            <h3 style="color: white">Dr. Shashi Shekhar Jha</h3>
+                                            <h5 style="color: white">Associate Faculty Advisor, BOST</h5>
+                                        </div>
+                                    </div>
+                                    <div class="client_review_text">
+                                        <p style="color: white">BOST is a place for dreamers,innovators and out of
+                                            the
+                                            box thinkers with
+                                            various club here guided by enthusiastic people one can learn ,innovate
+                                            ,
                                             build and own the future.
                                             To be a leader in Science and Technology we seek your support and
-                                            participation in this strive of ours. So pick up a club which fascinates you
+                                            participation in this strive of ours. So pick up a club which fascinates
+                                            you
                                             and join with us!</p>
-                                        <img src="img/bost.png" alt="#">
                                         <div class="client_info">
-                                            <h3 style="color: white">Mr. Anand Kumar</h3>
+                                            <h3 style="color: white">Mr. Mehul Gupta</h3>
                                             <h5 style="color: white">General Secretary, BOST</h5>
                                         </div>
                                     </div>
@@ -466,512 +700,921 @@
         </center>
     </section>
 
-
-    <section class="features-section border-bottom" style="padding:10px">
-        <div class="container teams" style="padding: 0">
-            <h1 class="center-title" text-color="white" style=" margin: 35px; color:white;">
-                <center> HOBBY CLUBS</center>
-            </h1>
-
-
-            <div>
-                <center>
-                    <ul>
-                        <li style=" color:white; text-decoration-color: white; font-size:20px"><a id="cc1" href="#club1">Robotics Club
-                        </li>
-                        <li style="font-size:20px; color:white"><a id="cc2" href="#club2">Aeromodelling Club</li>
-                        <li style="font-size:20px"><a id="cc3" href="#club3">Coding Club</li>
-                        <li style="font-size:20px"><a id="cc4" href="#club4">Software Community</li>
-                        <li style="font-size:20px"><a id="cc5" href="#club5">CIM Cub</li>
-                        <li style="font-size:20px"><a id="cc6" href="#club6">Zenith Club</li>
-                        <li style="font-size:20px"><a id="cc7" href="#club7">Finance Community</li>
-                        <li style="font-size:20px"><a id="cc8" href="#club8">Monochrome Club</li>
-                        <li style="font-size:20px "><a id="cc9" href="#club9">Automotive Club</li>
-                </center>
-                </ul>
+    <div class="row" style="padding:20px 0px; margin:0; text-align: center;">
+        <p class="head" style="font-size: 40px !important;">OUR TEAM</p>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                <div class="team-mem">
+                    <div class="img">
+                        <img class="rounded-circle" src="img/deansa.jpg" width="200px" height="200px" alt="Image 2">
+                    </div>
+                    <div class="det">
+                        <div class="name">Dr. S. C. Martha</div>
+                        <div class="club">Dean Student Affairs</div>
+                    </div>
+                    <div class="det-hid">
+                        <div class="svg-container">
+                            <a href="mailto:dean-associate-students@iitrpr.ac.in" target="_blank"
+                                style="margin-right: 10px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                    border="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                </svg></a>
+                            </a>
+                            <a href="https://in.linkedin.com/in/scmartha" target="_blank" style="margin-right: 10px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-linkedin" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div style="padding: 0 2px 2px 2px;">
-                <ul class="features-tabs list-inline text-center clubsTabs" role="tablist">
-                    <li id="club1" role="presentation" class="active"><a href="http://tech-iitb.org/#f1"
-                            aria-controls="f1" role="tab" data-toggle="tab" style="color:gainsboro ; font-size:30px"> Robotics Club</a>
-                        <p align="left" style="color: aliceblue; margin: 15px;font-size:18px"><img src="img/RoboticsClub.png" alt="demo"
-                                align="left" width="300" hspace="20">
-                            The Robotics Club at its core is driven by fascination with being able to build things
-                                that emulate
-                                real life, or finding solutions to real-world problems through devices or bots that are
-                                a product of
-                                our collective intelligence. Developing new skills which would help us channel this
-                                fascination
-                                into tangible implementation is our primary goal. We are a community of technology
-                                enthusiasts,
-                                which envisions to build things too fantastic to be true, as if straight out of a book
-                                or a movie.
-                            <br><a href="robotics_club.html" class="btn btn-primary">Know More</a>
-                        </p><br></br>
-                        <div class='col-md-1'></div>
-                        <div class="col-md-5" style="overflow: hidden">
-                            <img src="/static/assets/images/aero.png" alt="" class="img-responsive" style="height: 1px">
-                        </div>
-                    </li>
-                    <style>
-                        a.ex2:hover,
-                        a.ex2:active {
-                            font-size: 150%;
-                        }
-                    </style>
-                    <li id="club2" role="presentation"><a href="http://tech-iitb.org/#f2" aria-controls="f2" role="tab"
-                            data-toggle="tab" style="color:gainsboro ;font-size:30px "><br></br>Aeromodelling Club</a>
-                        <p align="left" style="font-size:18px; color:aliceblue ;"><img src="img/aeromodelling.png" alt="demo" align="right"
-                                width="300" hspace="20">
-                                The desire to fly is an idea handed down to us by our ancestors who...looked
-                                enviously on the birds soaring freely through space...on the infinite highway of the
-                                air.
-                                We, at Aeromodelling Club, IIT Ropar are group of aeromodelling and aviation
-                                enthusiasts with a passion for flying and an innate desire to push the bounds of
-                                airspace like they have never been before.
-                            <br><a href="aeromodelling_club.html" class="btn btn-primary">Know More</a>
-                        </p>
-                    </li><br></br>
-                    <center>
-                        <li id="club3" role="presentation"><a id="hhhh" href="http://tech-iitb.org/#f3"
-                                aria-controls="f3" role="tab" data-toggle="tab" style="color:gainsboro ; font-size:30px "><br></br>Coding
-                                Club </a>
-                    </center>
-                    <p align="left" style="color:aliceblue ;font-size:18px"><img src="img/coding(1).png" alt="demo" align="left"
-                            width="300" hspace="20">
-                         The Coding Club, being the largest club in college,is instrumental in setting up the right
-                            atmosphere for competitive coding in the college. Alongwith enabling people to develop the
-                            unparalleled skills for coding their way through external competitions, the club often holds
-                            contests of its own to boast the coding skills of the college. A community which allows for
-                            only
-                            logical reasoning and which does not believe in settling on algorithms, we are always on the
-                            quest for the better, after all there is no ‘best’ in a competition.<br><a
-                            href="coding_club.html" class="btn btn-primary">Know More</a>
-                    </p>
-                    </li><br>
-                    <li id="club4" role="presentation"><a href="http://tech-iitb.org/#f4" aria-controls="f4" role="tab"
-                            data-toggle="tab" style="color:gainsboro ;font-size:30px"><br></br>Software Community</a>
-                        <p align="left" style="color:aliceblue ;font-size:18px"><img src="img/softcom.png" alt="demo" align="right"
-                                width="300" hspace="20">
-                            <i>Software innovation, like almost every other kind of innovation, requires the ability to
-                                collaborate and share ideas with other people, and to sit down and talk with other
-                                members and get their feedback and understand their view point. Our vision is to
-                                unleash the full potential of the amazing software engineers in IIT Ropar by providing
-                                whatever resources required.</i><br><a href="softcom.html" class="btn btn-primary">Know
-                                More</a>
-                        </p>
-                    </li><br>
-                    <li id="club5" role="presentation"><a id="hehe" href="http://tech-iitb.org/#f5" aria-controls="f5"
-                            role="tab" data-toggle="tab" style="color:gainsboro ;font-size:30px "><br></br> CIM Club</a>
-                        <p align="left" style="color:aliceblue ;font-size:18px"><img src="img/cim.png" alt="demo" align="left"
-                                width="300" hspace="20">
-                            CIM club harnesses the power of computing for simulations and
-                                designing.Computer-integrated manufacturing (CIM) is the manufacturing approach of using
-                                computers to control the entire production process.This club bolsters 2D and 3D
-                                designing of anything and everything you can imagine.This club also deals with computer
-                                simulations of various systems CIM is an example of the implementation of information
-                                and communication technologies (ICTs) in manufacturing.<br><a href="CIM.html"
-                                class="btn btn-primary">Know More</a>
-                        </p>
-                    </li><br>
-                    <li id="club6" role="presentation"><a href="http://tech-iitb.org/#f6" aria-controls="f6" role="tab"
-                            data-toggle="tab" style="color:gainsboro ;font-size:30px"><br></br>Zentih Club</a>
-                        <p align="left" style="color:aliceblue ;font-size:18px"><img src="img/zenith.png" alt="demo" align="right"
-                                width="300" hspace="20">
-                             Zenith club is for all those who look up at the sky and wonder.
-                                We conduct observation sessions to look into the night sky through our Telescope,
-                                conduct
-                                quizzes on current and basic astronomy topics. We organize documentary screening
-                                sessions to simplify the learning experience and encourage discussions so as to form a
-                                community and
-                                enhance our knowledge. We also do amateur Astro-photography. We invite distinguished
-                                professors for guest lectures who have contributed their lives in this field.
-                                Everyone is welcome to all these events. No prior knowledge in astronomy is required,
-                                just
-                                interest and passion for the heavens above is all we need!<br><a
-                                href="zenith_club.html" class="btn btn-primary">Know More</a>
-                        </p>
-                    </li><br>
-                    <li id="club7" role="presentation"><a href="http://tech-iitb.org/#f7" aria-controls="f7" role="tab"
-                            data-toggle="tab" style="color:gainsboro ;font-size:30px"><br></br>Finance Community</a>
-                        <p align="left" style="color:aliceblue ;font-size:18px"><img src="img/fincom.png" alt="demo" align="left"
-                                width="300" hspace="20">
-                            Its not a hobby, its not a passion, its a basic need of life that each and every
-                                one of us needs whether a middle-class businessman or a CEO of MNC.
-                                Fincom is a non core club but if someone is enthusiastic about it and has the
-                                caliber of becoming a core in itself the club opens the wide door of analytics and
-                                consultancy for one and apart from this the club pulls out the hidden problem
-                                solver that hides inside all of us by making ones mind strome through various
-                                case problems throughout the year, these problem solving skills are not just
-                                needed for this field but these are the skills that every engineer needs throughout
-                                his life.<br><a href="fincom.html" class="btn btn-primary">Know More</a>
-                        </p>
-                    </li><br>
-                    <li id="club8" role="presentation"><a href="http://tech-iitb.org/#f6" aria-controls="f6" role="tab"
-                            data-toggle="tab" style="color:gainsboro ;font-size:30px"><br></br>Monochrome Club</a>
-                        <p align="left" style="color:aliceblue ;font-size:18px"><img src="img/Logo.png" alt="demo" align="right"
-                                width="300" hspace="20">
-                             The club Monochrome is driven by the motivation of exploring without any constraint,
-                                where our imagination are your words and your skills your pen, and when you blend
-                                them together, you write beautiful poetry that perfectly reflects your ideology.
-                                Bringing
-                                out the best out of the provided is also one of our motives
-                                To provide basic knowledge of Digital design to the upcoming designers of IIT Ropar.
-                                Also Provide them hands on experience in photoshop , illustrator and premiere pro
-                                through design labs and help them gain experience in digital designing/editing via
-                                enabling them to give their contribution in organising various events at IIT Ropar
-                                throughout the year.
-                                So if you think designing is for you, then MONOChrome should definitely be on your
-                                list.
-                            <br><a href="monochrome_club.html" class="btn btn-primary">Know More</a>
-                        </p>
-                    </li><br>
-                    <li id="club9" role="presentation"><a href="http://tech-iitb.org/#f7" aria-controls="f7" role="tab"
-                            data-toggle="tab" style="color:gainsboro ;font-size:30px"><br></br>Automotive Club</a>
-                        <p align="left" style="color:aliceblue ;font-size:18px"><img src="img/automotive.png" alt="demo" align="left"
-                                width="300" hspace="20">
-                            This quote by Sir Ford was the motivation for the people who started the Automotive Club
-                                of IIT Ropar and these continuous efforts encourages the students to put their knowledge
-                                and imagination together for the astonishing outputs. Under the umbrella of the club,
-                                one will be participating in different competitions, learning about technologies and
-                                mechanics related to the automobile. Apart from this, the sessions on Computer
-                                Integrated Manufacturing will be arranged in collaboration with CIM Club, IIT
-                                Ropar.<br><a href="automotive_club.html" class="btn btn-primary">Know More</a>
 
-                        </p>
-                    </li><br>
-
-                </ul>
-
-
-                <section class="our_latest_work section_padding">
-                    <div class="container-fluid">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-5">
-                                <div class="section_tittle text-center">
-
-                                    <h6 class="fix-gap upper_bottom_line" style="color:gainsboro ;margin-top: 25px; font-size: 30px  ">
-                                        <b>Innovative Programs and Technostructure</b>
-                                    </h6>
-
-                                </div>
-                            </div>
-                        </div>
-                        <style>
-                            .fix-gap {
-                                margin-top: 0px;
-                                margin-left: 0px;
-                                margin-bottom: 0px;
-                                padding: 0px;
-                            }
-                        </style>
-                        <br>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="single_work">
-                                    <div class="row align-items-center">
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="demo_img">
-                                                <img src="img/sci-fi.jpeg" alt="demo">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="single_work_demo">
-
-                                                <h3 style="color:gainsboro ;">Sci-Fi</h3>
-                                                <p style="color:aliceblue ;">Working on the project not only requires ones skills but also
-                                                            demands a well-equipped working area. BOST provides the
-                                                            sci-fi room where one can work on the projects. It consists
-                                                            of several labs shared by the various clubs of BOST. The
-                                                            room is open 24*7 for the technical enthusiasts and provides
-                                                            all the necessary equipments for the projects.</p>
-                                                <a href="home.html" class="btn_3"> <span
-                                                        class="flaticon-slim-right"></span> </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="single_work">
-                                    <div class="row align-items-center">
-                                        <div class="offset-lg-1 col-lg-4 col-md-6">
-                                            <div class="single_work_demo">
-                                                <h3 style="padding-top: 20px; color: gainsboro;">BOST Summer Camp</h3>
-                                                <p style="color:aliceblue ;"> Summer holidays provide students the opportunity to learn new
-                                                            things while having fun at the same time. The Board Of
-                                                            Science And Technology comes up with the opportunity for
-                                                            enthusiastic students to show case their talents by
-                                                            providing a platform through the Summer Camp Program. If you
-                                                            have any technical idea, which may lead to useful product or
-                                                            demonstration, BOST with its various clubs can help you
-                                                            technically as well as with resources. Under this program
-                                                            students can choose projects of their interests and work on
-                                                            their ideas, spending their summer breaks in a productive
-                                                            manner. </p>
-                                                <a href="index.html" class="btn_3"> <span
-                                                        class="flaticon-slim-right"></span> </a>
-                                            </div>
-                                        </div>
-                                        <div class="offset-lg-1 col-lg-6 col-md-6">
-                                            <div class="demo_img">
-                                                <img src="img/summer_camp.JPG" alt="demo">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="single_work">
-                                    <div class="row align-items-center">
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="demo_img">
-                                                <img style="width: 90%" src="img/advitiya.jpg" alt="demo">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="single_work_demo">
-
-                                                <h3 style="color:gainsboro ;">Advitiya</h3>
-                                                <p style="color:aliceblue ;">The annual technical festival of IIT ropar “Adivtiya ”, marks a
-                                                            3 day journey consisting of various competitions spread
-                                                            across Robotics, Management, Coding, Designing, Gaming,
-                                                            Astronomy, Aero-modelling and Quizzing. Apart from the
-                                                            competitions, talks and workshops are few of the interesting
-                                                            events of the fest. The upcoming Advitiya is going to be
-                                                            held in February 2020. </p>
-                                                <a href="index.html" class="btn_3"><span
-                                                        class="flaticon-slim-right"></span> </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="single_work">
-                                    <div class="row align-items-center">
-                                        <div class="offset-lg-1 col-lg-4 col-md-6">
-                                            <div class="single_work_demo">
-
-                                                <h3 style="padding-top: 20px; color:gainsboro ;">Quintessence</h3>
-                                                <p style="color:aliceblue ; ">IITs are not only the technological hub but are also known for
-                                                            amalgamating education with fun-filled extra-curricular
-                                                            activities. Every year BOST organizes IIT Ropar’s
-                                                            intra-college technical fest ‘Quintessence’. Continuing with
-                                                            that tradition, we are pleased to announce that
-                                                            Quintessence’19 will be organized in the month of November.
-                                                            As a part of this, clubs under BOST will be organizing
-                                                            several enlightening and interesting talks by eminent
-                                                            speakers and a multitude of competitions under Coding,
-                                                            Designing, Gaming, Astronomy, Aero-modelling, Robotics and
-                                                            Quizzing. Students of the institute make a great show of
-                                                            their talents in various fields by participating in these
-                                                            events.</p>
-                                                <a href="index.html" class="btn_3"><span
-                                                        class="flaticon-slim-right"></span> </a>
-                                            </div>
-                                        </div>
-                                        <div class="offset-lg-1 col-lg-6 col-md-6">
-
-                                            <img style="width: 100%" src="img/quintessence.jpg" height="380" alt="demo">
-
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <style>
-                                    .single_work_demo:hover {
-                                        top: -10px;
-                                        padding: 60px;
-                                        border-radius: 15px;
-                                        background-color:rgb(12, 12, 66);
-                                    }
-                                </style>
-                            </div>
-
-                </section>
-
-                <!-- upcoming_event part start-->
-
-
-
-
-                <section class="blog_part section_padding">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-xl-5">
-                                <div class="section_tittle text-center">
-                                    <h2 style="color:aliceblue"><br></br>News & Events</h2>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <!--                 <div class="col-sm-6 col-lg-4 col-xl-4 d-none d-sm-block d-lg-none">
-                    <div class="single-home-blog">
-                        <div class="card">
-                            <img src="News-2/img/team/2.jpg" class="card-img-top" alt="blog">
-                            <div class="card-body">
-                                <a href="News-2/index.html">Student Activity</a> | <span> May 18, 2019</span>
-                                <a href="News-2/index.html">
-                                    <h5 class="card-title">Seasons form upon days may wont bring given herb sixth</h5>
-                                </a>
-                                <ul>
-                                   
-                                </ul>
-                            </div>
+            <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                <div class="team-mem">
+                    <div class="img">
+                        <img class="rounded-circle" src="img/faculty.jpeg" width="200px" height="200px" alt="Image 2">
+                    </div>
+                    <div class="det">
+                        <div class="name">Dr. Ashwani Sharma</div>
+                        <div class="club">Faculty Advisor, BOST</div>
+                    </div>
+                    <div class="det-hid">
+                        <div class="svg-container">
+                            <a href="mailto:fa.sa.bost@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                    border="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                </svg></a>
+                            </a>
+                            <a href="https://in.linkedin.com/in/ashwani-sharma-80197020" target="_blank"
+                                style="margin-right: 10px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-linkedin" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                </svg>
+                            </a>
                         </div>
                     </div>
-                </div> -->
-
-
-                            <div class="col-sm-6 col-lg-4 col-xl-4">
-                                <div class="single-home-blog">
-                                    <div class="card">
-                                        <img src="Squadfree/img/final.jpg" class="card-img-top" alt="blog">
-                                        <div class="card-body">
-                                            <a href="Squadfree/index.html">ISMP Activity</a> | <span> July 28,
-                                                2019</span>
-                                            <a href="Squadfree/index.html">
-                                                <h5 class="card-title">FINCOM 737</h5>
-                                            </a>
-                                            <ul>
-
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-4 col-xl-4">
-                                <div class="single-home-blog">
-                                    <div class="card">
-                                        <img src="News-3/img/final.jpg" class="card-img-top" alt="blog">
-                                        <div class="card-body">
-                                            <a href="News-3/index.html">Student Activity</a> | <span> June 14,
-                                                2019</span>
-                                            <a href="News-3/index.html">
-                                                <h5 class="card-title">Student Outreach Session
-                                                </h5>
-                                            </a>
-                                            <ul>
-
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-4 col-xl-4">
-                                <div class="single-home-blog">
-                                    <div class="card">
-                                        <img src="News-2/img/final.jpg" class="card-img-top" alt="blog">
-                                        <div class="card-body">
-                                            <a href="News-2/index.html">Student Activity</a> | <span> May 18,
-                                                2019</span>
-                                            <a href="News-2/index.html">
-                                                <h5 class="card-title">Student Outreach Session</h5>
-                                            </a>
-                                            <ul>
-
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-
-                <center>
-                    <h2 class="footer-heading mb-4" style="color:aliceblue"><br></br>Connect to us</h2>
-                </center>
-                <footer class="site-footer">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-5">
-
-                                <div class="p-4 mb-3 bg-white">
-                                    <h4>Board of Science and Technology</h4>
-                                    <p class="mb-0 font-weight-bold">Address</p>
-                                    <p class="mb-4">Nangal Rd, Hussainpur, Rupnagar<br> Punjab, India 140001</p>
-
-                                    <p class="mb-0 font-weight-bold">Phone</p>
-                                    <p class="mb-4"><a href="#"> General Secretary:: +91 76270 00977</a></p>
-
-                                    <p class="mb-0 font-weight-bold">Email Address</p>
-                                    <p class="mb-0"><a href="#">General Secretary:: gs.tech@iitrpr.ac.in</a></p>
-
-                                </div>
-                            </div>
-                            <div>
-                                <h4 style="margin-top: 30px; color: aliceblue; " class="footer-heading mb-4">Reach Us</h4>
-
-                                <a href="https://www.facebook.com/IIT-Ropar-262431593827848/?ref=br_rs"> <i
-                                        style="font-size:50px; padding-right:20px" class="ti-facebook"></i> </a>
-                                <a
-                                    href="https://twitter.com/iitrpr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
-                                    <i style="font-size:50px;padding-right:20px" class="ti-twitter-alt"></i> </a>
-                                <a href="https://www.instagram.com/iitropar/?hl=en"> <i style="font-size:50px"
-                                        class="ti-instagram"></i> </a>
-
-                            </div>
-                            <div class="col-md-3 ml-auto">
-                                <div>
-                                    <h4 style="margin-top: 30px; color: aliceblue;" class="footer-heading mb-4">Links</h4>
-                                    <ul class="list-unstyled">
-                                        <li><a href="index.html">About Us</a></li>
-                                        <li><a href="#">Advitiya</a></li>
-                                        <li><a href="#">Quintessence</a></li>
-                                        <li><a href="contact.html">Contact Us</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class=" text-center">
-                        <div class="col-md-12">
-
-                            <p>
-
-                                Copyright &copy;
-                                <script>document.write(new Date().getFullYear());</script> All rights reserved IIT Ropar
-
-                            </p>
-
-                        </div>
-
-                    </div>
-                </footer>
-
+                </div>
             </div>
-            <!-- footer part end-->
+
+            <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                <div class="team-mem">
+                    <div class="img">
+                        <img class="rounded-circle" src="img/associate_faculty.jpeg" width="200px" height="200px"
+                            alt="Image 2">
+                    </div>
+                    <div class="det">
+                        <div class="name">Dr. Shashi Shekhar Jha</div>
+                        <div class="club">Associate Faculty Advisor, BOST</div>
+                    </div>
+                    <div class="det-hid">
+                        <div class="svg-container">
+                            <a href="mailto:fa.sa.bost@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                    border="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                </svg></a>
+                            </a>
+                            <a href="https://sg.linkedin.com/in/jhashashishekhar" target="_blank"
+                                style="margin-right: 10px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-linkedin" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                <div class="team-mem">
+                    <div class="img">
+                        <img class="rounded-circle" src="img/gsecy.jpg" width="200px" height="200px" alt="Image 2">
+                    </div>
+                    <div class="det">
+                        <div class="name">Mr. Mehul Gupta</div>
+                        <div class="club">General Secretary, BOST</div>
+                    </div>
+                    <div class="det-hid">
+                        <div class="svg-container">
+                            <a href="mailto:gs.tech@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                    border="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                </svg></a>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mehul-gupta-78ab52241/" target="_blank"
+                                style="margin-right: 10px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-linkedin" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                </svg>
+                            </a>
+                            <a href="https://wa.me/+917627000977" target="_blank" style="margin-right: 10px;">
+                                <i class="fab fa-whatsapp" style="font-size: 25px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
-    <!-- jquery plugins here-->
-    <!-- jquery -->
-    <script src="js/jquery-1.12.1.min.js"></script>
-    <!-- popper js -->
-    <script src="js/popper.min.js"></script>
-    <!-- bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- easing js -->
-    <script src="js/jquery.magnific-popup.js"></script>
-    <!-- swiper js -->
-    <script src="js/swiper.min.js"></script>
-    <!-- swiper js -->
-    <script src="js/masonry.pkgd.js"></script>
-    <!-- particles js -->
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/owl.carousel2.thumbs.min.js"></script>
-    <!-- swiper js -->
-    <script src="js/slick.min.js"></script>
-    <!-- custom js -->
-    <script src="js/custom.js?v=1"></script>
-    <script>
-        /*Navbar*/
-        $(document).ready(function () {
-            $(".nav-cover").load("nav.html");
-        });
-    </script>
+        <hr style="border-color:#2DA86F; margin-top:40px;">
+        <div class="row">
+            <p class="head">CLUB SECRETARY</p>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="team-mem">
+                        <div class="img">
+                            <img class="rounded-circle" src="img/team/susanth.jpeg" width="200px" height="200px"
+                                alt="Image 2">
+                        </div>
+                        <div class="det">
+                            <div class="name">SUSANTH</div>
+                            <div class="club">Aeromodelling Club</div>
+                        </div>
+                        <div class="det-hid">
+                            <div class="svg-container">
+                                <a href="mailto:2021chb1053@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                        border="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg></a>
+                                </a>
+                                <a href="https://in.linkedin.com/in/sai-susanth-reddy-sanam-a1b7a9223" target="_blank"
+                                    style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                    </svg>
+                                </a>
+                                <a href="https://wa.me/+919550457919" target="_blank" style="margin-right: 10px;">
+                                    <i class="fab fa-whatsapp" style="font-size: 25px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="team-mem">
+                        <div class="img">
+                            <img class="rounded-circle" src="img/team/Shubha_Tanaya.jpg" width="200px" height="200px"
+                                alt="Image 2">
+                        </div>
+                        <div class="det">
+                            <div class="name">SHUBHA TANAYA</div>
+                            <div class="club">Automotive Club</div>
+                        </div>
+                        <div class="det-hid">
+                            <div class="svg-container">
+                                <a href="mailto:2021meb1325@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                        border="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg></a>
+                                </a>
+                                <a href="https://www.linkedin.com/in/shubha-tanaya-99679622a" target="_blank"
+                                    style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                    </svg>
+                                </a>
+                                <a href="https://wa.me/+919100542773" target="_blank" style="margin-right: 10px;">
+                                    <i class="fab fa-whatsapp" style="font-size: 25px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="team-mem">
+                        <div class="img">
+                            <img class="rounded-circle" src="img/team/Anany_Dhamija.JPG" width="200px" height="200px"
+                                alt="Image 2">
+                        </div>
+                        <div class="det">
+                            <div class="name">ANANY DHAMIJA</div>
+                            <div class="club">Coding Club</div>
+                        </div>
+                        <div class="det-hid">
+                            <div class="svg-container">
+                                <a href="mailto:2021mcb1231@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                        border="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg></a>
+                                </a>
+                                <a href="https://www.linkedin.com/in/anany-dhamija-59306b222" target="_blank"
+                                    style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                    </svg>
+                                </a>
+                                <a href="https://wa.me/+918168631664" target="_blank" style="margin-right: 10px;">
+                                    <i class="fab fa-whatsapp" style="font-size: 25px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="team-mem">
+                        <div class="img">
+                            <img class="rounded-circle" src="img/team/Vaibhav Singhal .jpg" width="200px" height="200px"
+                                alt="Image 2">
+                        </div>
+                        <div class="det">
+                            <div class="name">VAIBHAV SINGHAL</div>
+                            <div class="club">ESportZ</div>
+                        </div>
+                        <div class="det-hid">
+                            <div class="svg-container">
+                                <a href="mailto:2020meb1327@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                        border="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg></a>
+                                </a>
+                                <a href="https://in.linkedin.com/in/vaibhav-singhal-iit-ropar" target="_blank"
+                                    style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                    </svg>
+                                </a>
+                                <a href="https://wa.me/+918441006120" target="_blank" style="margin-right: 10px;">
+                                    <i class="fab fa-whatsapp" style="font-size: 25px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="team-mem">
+                        <div class="img">
+                            <img class="rounded-circle" src="img/team/Dron Chowdhury.jpg" width="200px" height="200px"
+                                alt="Image 2">
+                        </div>
+                        <div class="det">
+                            <div class="name">DRON CHOWDHURY</div>
+                            <div class="club">FinCOM</div>
+                        </div>
+                        <div class="det-hid">
+                            <div class="svg-container">
+                                <a href="mailto:2021ceb1019@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                        border="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg></a>
+                                </a>
+                                <a href="https://www.linkedin.com/in/dron-chowdhury-0771a7226/" target="_blank"
+                                    style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                    </svg>
+                                </a>
+                                <a href="https://wa.me/+918448128918" target="_blank" style="margin-right: 10px;">
+                                    <i class="fab fa-whatsapp" style="font-size: 25px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="team-mem">
+                        <div class="img">
+                            <img class="rounded-circle" src="img/team/blank.jpeg" width="200px" height="200px"
+                                alt="Image 2">
+                        </div>
+                        <div class="det">
+                            <div class="name">Kunal Molhotra</div>
+                            <div class="club">Monochrome</div>
+                        </div>
+                        <div class="det-hid">
+                            <div class="svg-container">
+                                <a href="mailto:2020eeb1181@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                        border="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg></a>
+                                </a>
+                                <a href="https://www.linkedin.com/in/kunal-malhotra-326609212/" target="_blank"
+                                    style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                    </svg>
+                                </a>
+                                <a href="https://wa.me/+918091741187" target="_blank" style="margin-right: 10px;">
+                                    <i class="fab fa-whatsapp" style="font-size: 25px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="team-mem">
+                        <div class="img">
+                            <img class="rounded-circle" src="img/team/blank.jpeg" width="200px" height="200px"
+                                alt="Image 2">
+                        </div>
+                        <div class="det">
+                            <div class="name">Vinay Yadav</div>
+                            <div class="club">Robotics Club</div>
+                        </div>
+                        <div class="det-hid">
+                            <div class="svg-container">
+                                <a href="mailto:2021eeb1335@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                        border="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg></a>
+                                </a>
+                                <a href="https://in.linkedin.com/in/vinay-yadav-8ba7a5275" target="_blank"
+                                    style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="team-mem">
+                        <div class="img">
+                            <img class="rounded-circle" src="img/team/Nikhil Rastogi.jpg" width="200px" height="200px"
+                                alt="Image 2">
+                        </div>
+                        <div class="det">
+                            <div class="name">Nikhil Rastogi</div>
+                            <div class="club">SoftCom</div>
+                        </div>
+                        <div class="det-hid">
+                            <div class="svg-container">
+                                <a href="mailto:2021mcb1240@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                        border="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg></a>
+                                </a>
+                                <a href="https://in.linkedin.com/in/nikhil-rastogi-851359227" target="_blank"
+                                    style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                    </svg>
+                                </a>
+                                <a href="https://wa.me/+918368317985" target="_blank" style="margin-right: 10px;">
+                                    <i class="fab fa-whatsapp" style="font-size: 25px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="team-mem">
+                        <div class="img">
+                            <img class="rounded-circle" src="img/team/blank.jpeg" width="200px" height="200px"
+                                alt="Image 2">
+                        </div>
+                        <div class="det-hid">
+                            <div class="svg-container">
+                                <a href="mailto:2021eeb1144@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                        border="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg></a>
+                                </a>
+                                <a href="https://in.linkedin.com/in/aashish-chahal-382504235?trk=public_profile_browsemap"
+                                    target="_blank" style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                    </svg>
+                                </a>
+                                <a href="https://wa.me/+918570862152" target="_blank" style="margin-right: 10px;">
+                                    <i class="fab fa-whatsapp" style="font-size: 25px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="det">
+                            <div class="name">Aashish Chahal</div>
+                            <div class="club">Zenith</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr style="border-color:#2DA86F; margin-top:40px;">
+        <div class="row">
+            <p class="head">RESPRESENTATIVE</p>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="team-mem">
+                        <div class="img">
+                            <img class="rounded-circle" src="img/team/Akash Jangid.jpg" width="200px" height="200px"
+                                alt="Image 2">
+                        </div>
+                        <div class="det">
+                            <div class="name">Akash Jangid</div>
+                            <div class="club">Aeromodelling Club</div>
+                        </div>
+                        <div class="det-hid">
+                            <div class="svg-container">
+                                <a href="mailto:2022epb1230@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                        border="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg></a>
+                                </a>
+                                <a href="https://www.linkedin.com/in/akash-jangid-617134279" target="_blank"
+                                    style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                    </svg>
+                                </a>
+                                <a href="https://wa.me/+918306919070" target="_blank" style="margin-right: 10px;">
+                                    <i class="fab fa-whatsapp" style="font-size: 25px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="team-mem">
+                        <div class="img">
+                            <img class="rounded-circle" src="img/team/Arnav_Maitreya.jpg" width="200px" height="200px"
+                                alt="Image 2">
+                        </div>
+                        <div class="det">
+                            <div class="name">Arnav Maitreya</div>
+                            <div class="club">Automotive Club</div>
+                        </div>
+                        <div class="det-hid">
+                            <div class="svg-container">
+                                <a href="mailto:2022meb1299@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                        border="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg></a>
+                                </a>
+                                <a href="https://www.linkedin.com/in/arnav-maitrey-39b7a1204" target="_blank"
+                                    style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                    </svg>
+                                </a>
+                                <a href="https://wa.me/+918318339457" target="_blank" style="margin-right: 10px;">
+                                    <i class="fab fa-whatsapp" style="font-size: 25px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="team-mem">
+                        <div class="img">
+                            <img class="rounded-circle" src="img/team/Hardik_Ajit.jpg" width="200px" height="200px"
+                                alt="Image 2">
+                        </div>
+                        <div class="det">
+                            <div class="name">Hardik Ajit</div>
+                            <div class="club">Automotive Club</div>
+                        </div>
+                        <div class="det-hid">
+                            <div class="svg-container">
+                                <a href="mailto:2022meb1312@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                        border="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg></a>
+                                </a>
+                                <a href="https://in.linkedin.com/in/hardik-jain-b93329256" target="_blank"
+                                    style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                    </svg>
+                                </a>
+                                <a href="https://wa.me/+919004350656" target="_blank" style="margin-right: 10px;">
+                                    <i class="fab fa-whatsapp" style="font-size: 25px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="team-mem">
+                        <div class="img">
+                            <img class="rounded-circle" src="img/team/Moksh Kandpal.webp" width="200px" height="200px"
+                                alt="Image 2">
+                        </div>
+                        <div class="det">
+                            <div class="name">Moksh Kandpal</div>
+                            <div class="club">Coding Club</div>
+                        </div>
+                        <div class="det-hid">
+                            <div class="svg-container">
+                                <a href="mailto:2022csb1093@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                        border="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg></a>
+                                </a>
+                                <a href="https://www.linkedin.com/in/moksh-kandpal-3260b4263" target="_blank"
+                                    style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                    </svg>
+                                </a>
+                                <a href="https://wa.me/+917456925541" target="_blank" style="margin-right: 10px;">
+                                    <i class="fab fa-whatsapp" style="font-size: 25px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="team-mem">
+                        <div class="img">
+                            <img class="rounded-circle" src="img/team/Pankaj_Singh.jpg" width="200px" height="200px"
+                                alt="Image 2">
+                        </div>
+                        <div class="det">
+                            <div class="name">Pankaj Singh</div>
+                            <div class="club">ESportZ</div>
+                        </div>
+                        <div class="det-hid">
+                            <div class="svg-container">
+                                <a href="mailto:2021ceb1026@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                        border="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg></a>
+                                </a>
+                                <a href="https://www.linkedin.com/in/itspunkaj/" target="_blank"
+                                    style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                    </svg>
+                                </a>
+                                <a href="https://wa.me/+919780930375" target="_blank" style="margin-right: 10px;">
+                                    <i class="fab fa-whatsapp" style="font-size: 25px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="team-mem">
+                        <div class="img">
+                            <img class="rounded-circle" src="img/team/Vineet Kumar.jpg" width="200px" height="200px"
+                                alt="Image 2">
+                        </div>
+                        <div class="det">
+                            <div class="name">Vineet Kumar</div>
+                            <div class="club">FinCOM</div>
+                        </div>
+                        <div class="det-hid">
+                            <div class="svg-container">
+                                <a href="mailto:2022meb1366@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                        border="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg></a>
+                                </a>
+                                <a href="https://www.linkedin.com/in/vineet-kumar-0611b425a" target="_blank"
+                                    style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                    </svg>
+                                </a>
+                                <a href="https://wa.me/+917827816475" target="_blank" style="margin-right: 10px;">
+                                    <i class="fab fa-whatsapp" style="font-size: 25px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="team-mem">
+                        <div class="img">
+                            <img class="rounded-circle" src="img/team/Kavyansh Dhakad.jpg" width="200px" height="200px"
+                                alt="Image 2">
+                        </div>
+                        <div class="det">
+                            <div class="name">Kavyansh Dhakad</div>
+                            <div class="club">Monochrome</div>
+                        </div>
+                        <div class="det-hid">
+                            <div class="svg-container">
+                                <a href="mailto:2022mmb1382@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                        border="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg></a>
+                                </a>
+                                <a href="https://www.linkedin.com/in/kavyansh-dhakad-0bb5b3243/" target="_blank"
+                                    style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                    </svg>
+                                </a>
+                                <a href="https://wa.me/+918770418102" target="_blank" style="margin-right: 10px;">
+                                    <i class="fab fa-whatsapp" style="font-size: 25px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="team-mem">
+                        <div class="img">
+                            <img class="rounded-circle" src="img/team/Krish Soliya.JPG" width="200px" height="200px"
+                                alt="Image 2">
+                        </div>
+                        <div class="det">
+                            <div class="name">Krish Soliya</div>
+                            <div class="club">Robotics Club</div>
+                        </div>
+                        <div class="det-hid">
+                            <div class="svg-container">
+                                <a href="mailto:2022eeb1183@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                        border="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg></a>
+                                </a>
+                                <a href="https://www.linkedin.com/in/krish-soliya-322a2125a/" target="_blank"
+                                    style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                    </svg>
+                                </a>
+                                <a href="https://wa.me/+919512119212" target="_blank" style="margin-right: 10px;">
+                                    <i class="fab fa-whatsapp" style="font-size: 25px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="team-mem">
+                        <div class="img">
+                            <img class="rounded-circle" src="img/team/Tanmay_Goyal.jpg" width="200px" height="200px"
+                                alt="Image 2">
+                        </div>
+                        <div class="det">
+                            <div class="name">Tanmay Goyal</div>
+                            <div class="club">SoftCom</div>
+                        </div>
+                        <div class="det-hid">
+                            <div class="svg-container">
+                                <a href="mailto:2022eeb1219@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                        border="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg></a>
+                                </a>
+                                <a href="https://www.linkedin.com/in/tanmay-goyal-46b54a255/" target="_blank"
+                                    style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                    </svg>
+                                </a>
+                                <a href="https://wa.me/+918708380729" target="_blank" style="margin-right: 10px;">
+                                    <i class="fab fa-whatsapp" style="font-size: 25px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="team-mem">
+                        <div class="img">
+                            <img class="rounded-circle" src="img/team/Siddharth Verma.jpg" width="200px" height="200px"
+                                alt="Image 2">
+                        </div>
+                        <div class="det-hid">
+                            <div class="svg-container">
+                                <a href="mailto:2022csb1126@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                        border="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg></a>
+                                </a>
+                                <a href="https://www.linkedin.com/in/siddharth-verma-186396259" target="_blank"
+                                    style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                    </svg>
+                                </a>
+                                <a href="https://wa.me/+917780973584" target="_blank" style="margin-right: 10px;">
+                                    <i class="fab fa-whatsapp" style="font-size: 25px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="det">
+                            <div class="name">Siddharth Verma</div>
+                            <div class="club">Zenith</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="border-color:#2DA86F; margin:0px;">
+            <div class="row">
+                <p class="head">ALUMNI</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="team-mem">
+                        <div class="img">
+                            <img class="rounded-circle" src="img/team/blank.jpeg" width="200px" height="200px"
+                                alt="Image 2">
+                        </div>
+                        <div class="det">
+                            <div class="name">Kasif Ansari</div>
+                            <div class="club">Ex-General Secretary, BOST</div>
+                        </div>
+                        <div class="det-hid">
+                            <div class="svg-container">
+                                <a href="mailto:2020meb1290@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                        border="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg></a>
+                                </a>
+                                <a href="https://in.linkedin.com/in/kasif-ansari-3ab97b1bb" target="_blank"
+                                    style="margin-right: 10px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr style="border-color:#2DA86F; margin:0px;">
+        </div>
+    </div>
+        <footer class="footer mt-5">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6" style="display: flexbox;">
+                    <!-- <div class="col-md-6"> -->
+                        <div class="widget-contact align-items-center justify-content-center">
+                          <a style="font-size: 20px; " href="index.html">Board of Science and Technology</a>
+                          <p style="color:white;" class="mb-0 font-weight-bold"><strong>Address</strong></p>
+                          <p class=""><a style="color:white;" href="#">Nangal Rd, Hussainpur, Rupnagar, Punjab, India
+                              140001</a></p>
+                          <p style="color:white;" class="mb-0 font-weight-bold"><strong>Phone</strong> </p>
+                          <p class=""><a style="color:white;" href="#">General Secretary:: +91 76270 00977</a></p>      
+                          <p style="color:white;" class="mb-0 font-weight-bold"><strong>Email Address</strong></p>
+                          <p class="mb-0"><a style="color:white;" href="#">General Secretary:: gs.tech@iitrpr.ac.in</a></p>
+                        </div>
+                </div>
+                <div class="col-md-6">
+                    <h4 style="font-weight: bold; color:white; font-family: Arial, Helvetica, sans-serif;">Contact us
+                      <br>
+                    </h4>
+                    <a style="font-size:30px;" href="https://www.facebook.com/IIT-Ropar-262431593827848/?ref=br_rs"
+                      class="fa fa-facebook"></a>
+                    <a style="font-size:30px;"
+                      href="https://twitter.com/iitrpr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                      class="fa fa-twitter"></a>
+                    <a style="font-size:30px;" href="https://www.instagram.com/iitropar/?hl=en" class="fa fa-instagram"></a>
+                    <br>
+                    <font style="color:white; font-size:15px">Website: <a href="https://codec-ropar.github.io">codec-ropar.github.io</a></font>
+                    <br><br>
+                    <div class="mt-5 d-flex justify-content-end"><p style="bottom: 0; right: 0;">Copyright @SoftCom IITRopar</p></div>
+                </div>
+                    
+                </div>
+              </div>
+            </div>
+          </footer>
+
+        <!-- jquery plugins here-->
+        <!-- jquery -->
+        <script src="js/jquery-1.12.1.min.js"></script>
+        <!-- popper js -->
+        <script src="js/popper.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- easing js -->
+        <script src="js/jquery.magnific-popup.js"></script>
+        <!-- swiper js -->
+        <script src="js/swiper.min.js"></script>
+        <!-- swiper js -->
+        <script src="js/masonry.pkgd.js"></script>
+        <!-- particles js -->
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/owl.carousel2.thumbs.min.js"></script>
+        <!-- swiper js -->
+        <script src="js/slick.min.js"></script>
+        <!-- custom js -->
+        <script src="js/custom.js?v=1"></script>
+        <script>
+            /*Navbar*/
+            $(document).ready(function () {
+                $(".nav-cover").load("nav.html");
+            });
+        </script>
 </body>
 
 </html>
