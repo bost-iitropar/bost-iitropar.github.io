@@ -1,0 +1,1109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+	<style>
+		.fade {
+			-webkit-animation-name: fade;
+			-webkit-animation-duration: 2s;
+			animation-name: fade;
+			animation-duration: 2s;
+			padding: 0px !important;
+		}
+
+		#hehe {
+			padding-left: 30px;
+		}
+
+		#club1 {
+			padding-top: 20px;
+			font-size: 20px;
+		}
+
+		#cc1 {
+			color: white;
+		}
+
+		#cc2 {
+			color: white;
+		}
+
+		#cc3 {
+			color: white;
+		}
+
+		#cc4 {
+			color: white;
+		}
+
+		#cc5 {
+			color: white;
+		}
+
+		#cc6 {
+			color: white;
+		}
+
+		#cc7 {
+			color: white;
+		}
+
+		#cc8 {
+			color: white;
+		}
+
+		#cc9 {
+			color: white;
+		}
+
+		#cc10 {
+			color: white;
+		}
+
+		@keyframes fade {
+			from {
+				opacity: .4
+			}
+
+			to {
+				opacity: 1
+			}
+		}
+
+		@media only screen and (max-width: 300px) {
+
+			.text {
+				font-size: 11px
+			}
+
+		}
+
+		@media only screen and (max-width: 480px) {
+			.slideshow-container {
+
+				margin-bottom: 0;
+				padding: 10px 8px;
+			}
+		}
+
+		body {
+			background-image: url("img/stars.jpg");
+			padding: 0;
+			margin: 0;
+		}
+
+		#nav-toggle-button span {
+			background-color: black;
+		}
+
+		.br {
+			display: block;
+			margin-top: 0em;
+			margin-bottom: 0em;
+		}
+
+		a.ex2:hover,
+		a.ex2:active {
+			font-size: 150%;
+		}
+
+		.avc {
+			align-items: center;
+		}
+
+		.team-mem {
+			width: 100%;
+			overflow: hidden;
+			font-family: 'Raleway';
+			position: relative;
+			transition: all 0.2s ease-in-out;
+			margin: 20px auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.team-mem .img {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 70%;
+			display: flex;
+			margin: auto;
+		}
+
+		.team-mem img {
+			transition: all 0.2s ease-in-out;
+		}
+
+		.team-mem .det {
+			text-align: center;
+			overflow: hidden;
+		}
+
+		.team-mem .det .name {
+			font-size: 24px;
+			font-family: 'Staatliches';
+			color: white;
+			transition: all 0.2s ease-in-out;
+			margin-top: 5px;
+		}
+
+		.team-mem .det .club {
+			color: white;
+			font-size: 16px;
+		}
+
+		.team-mem .det-hid {
+			position: absolute;
+			width: 80%;
+			overflow: hidden;
+			transition: all 0.2s ease-in-out;
+			opacity: 0;
+			top: 50% !important;
+			left: 50% !important;
+			transform: translate(-50%, -50%) !important;
+			text-align: center !important;
+		}
+
+		.team-mem .det-hid .des {
+			color: #ccc;
+			padding: 5px;
+			margin-bottom: 5px;
+			font-size: 18px;
+			font-weight: 600;
+		}
+
+
+		.team-mem:hover .det-hid {
+			opacity: 1;
+			transform: translateY(0px);
+		}
+
+		.team-mem:hover img {
+			opacity: 0.2;
+		}
+
+		.team-mem:hover .name {
+			color: #18A664;
+		}
+
+		.head {
+			font-family: 'Lato';
+			letter-spacing: 3px;
+			font-size: 28px;
+			color: white;
+			width: 100%;
+			text-align: center;
+			font-weight: 700;
+			margin: 50px 0px 20px 0px;
+		}
+
+		body {
+			background-image: url("img/stars.jpg");
+			padding: 0;
+			position: relative;
+			margin: 0;
+		}
+
+		.video-container {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			z-index: -1;
+			opacity: 0.5;
+		}
+
+		.video-container video {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+		}
+
+		.fw-normal {
+			font-weight: 400 !important;
+		}
+
+		.svg-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 1rem;
+		}
+
+		.bi {
+			vertical-align: -0.125em;
+			fill: currentColor;
+		}
+	</style>
+	By changing the body element's position to relative, you allow the content of the webpage to flow and enable
+	scrolling.
+	The video container is still positioned using fixed to cover the viewport, and the video element remains positioned
+	absolutely within the container.
+
+	Save the modified HTML file and reload it in your browser. Now, the webpage should have the video as the background
+	and
+	scrolling should work as expected.
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Clubs | BOST, IITRPR</title>
+	<link rel="icon" href="img/bost.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- animate CSS -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- owl carousel CSS -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<!-- themify CSS -->
+	<link rel="stylesheet" href="css/themify-icons.css">
+	<!-- flaticon CSS -->
+	<link rel="stylesheet" href="css/flaticon.css">
+	<!-- style CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<!--icon library CSS-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/themify-icons.css">
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/adv.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		integrity="sha512-xWHB9f/0iNwDIQr38vzMTzFtMA7jsuKGXhjv9+7XoFkF3BHQms51CqSfbUszHqz3hEzv8/ylkMhUopj9me0Yag=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="video-container">
+		<video autoplay loop muted>
+			<source src="bg.mp4" type="video/mp4">
+			<!-- Include additional source elements for other video formats if desired -->
+		</video>
+	</div>
+
+	<!--::header part start::-->
+	<header class="main_menu home_menu" style="background-image: url('img/stars.jpg');">
+		<div>
+		  <div class="row align-items-center" style="padding-right: 20px; padding-left: 20px;">
+			<div class="col-lg-12">
+			  <div class="nav-cover">
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </header>
+
+	<!-- Header part end-->
+
+	<!-- banner part start-->
+
+	<section class="features-section border-bottom" style="padding:10px">
+		<br>
+		<br>
+
+		<div class="container teams" style="padding: 0">
+			<h1 class="center-title" text-color="white" style="color:white;">
+				<center> OUR CLUBS</center>
+			</h1>
+			<div>
+				<center>
+					<ul>
+						<li style="font-size:20px"><a id="cc2" href="#club2">Aeromodelling Club</li>
+						<li style="font-size:20px"><a id="cc9" href="#club9">Automotive Club</li>
+						<li style="font-size:20px"><a id="cc5" href="#club5">CIM Cub</li>
+						<li style="font-size:20px"><a id="cc3" href="#club3">Coding Club</li>
+						<li style="font-size:20px"><a id="cc10" href="#club10">ESportZ</li>
+						<li style="font-size:20px"><a id="cc7" href="#club7">FinCOM</li>
+						<li style="font-size:20px"><a id="cc8" href="#club8">Monochrome Club</li>
+						<li style="font-size:20px"><a id="cc1" href="#club1">Robotics Club</li>
+						<li style="font-size:20px"><a id="cc4" href="#club4">SoftCom</li>
+						<li style="font-size:20px"><a id="cc6" href="#club6">Zenith Club</li>
+				</center>
+				</ul>
+			</div>
+
+			<div style="padding: 35px 2px 2px 2px;">
+				<ul class="features-tabs list-inline text-center clubsTabs" role="tablist">
+					<li id="club2" role="presentation">
+						<a href="http://tech-iitb.org/#f2" aria-controls="f2" role="tab" data-toggle="tab"
+							style="color:gainsboro ;font-size:30px ">
+							Aeromodelling Club
+						</a>
+						<div class="card text-white bg-transparent mb-3" style="max-width: 100%">
+							<div class="row no-gutters align-items-center">
+								<div class="col-md-4 d-flex justify-content-center">
+									<div class="team-mem">
+										<div class="img">
+											<img src="img/aeromodelling_logo.jpg" class="card-img" alt="loading..." />
+										</div>
+										<div class="det-hid">
+											<div class="svg-container">
+												<a href="mailto:aeromodelling@iitrpr.ac.in" target="_blank"
+													style="margin-right: 10px;">
+													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+														fill="white" border="white" class="bi bi-envelope"
+														viewBox="0 0 16 16">
+														<path
+															d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+													</svg></a>
+												</a>
+												<a href="https://www.instagram.com/aeromodelling_iitrpr/" target="_blank"
+													style="font-size: 25px; margin-right: 10px;">
+													<i class="fab fa-instagram"></i>
+												</a>
+												<a href="https://in.linkedin.com/in/aeromodelling-club-iit-ropar-8a7a60230"
+													target="_blank" style="margin-right: 10px;">
+													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+														fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+														<path
+															d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+													</svg>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-8 bg-transparent card text-left">
+									<div class="card-body" style="padding-top: 0;">
+										<p class="card-text" style="font-size:18px; color:aliceblue;">
+											The Aeromodelling Club of IIT Ropar is a community of passionate and
+											diligent students who work towards building
+											aircraft models like RC planes, rockets, drones, and so on. We use science
+											and skills to develop and design flying model
+											aircrafts. We provide opportunities for everyone to learn and contribute. We
+											ensure the flame of passion never dies by
+											continuously participating in national-level competitions to challenge
+											ourselves and upgrade ourselves at every step.
+											Engineering is all about technical knowledge and its applications; the
+											aeromodelling club aims to build a community of
+											engineers passionate about aviation. Learning is all about inputting hard
+											work and expertise, and this club acts as a
+											platform to impart knowledge and share ideas by conducting sessions
+											regularly. We strive for continuous improvement. It
+											is pertinent here to mention that failure is an integral part of learning;
+											no matter how many times the drone breaks, in
+											the end, it always flies high….
+										</p>
+										<a href="aeromodelling_club.html" class="btn btn-primary">Know More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+
+
+					<li id="club9" role="presentation">
+						<a href="http://tech-iitb.org/#f9" aria-controls="f9" role="tab" data-toggle="tab"
+							style="color:gainsboro ;font-size:30px">
+							Automotive Club
+						</a>
+						<p align="left" style="color:aliceblue ;font-size:18px">
+						<div class="card text-white bg-transparent mb-3" style="max-width: 100%">
+							<div class="row no-gutters align-items-center">
+								<div class="col-md-4 order-md-2 d-flex justify-content-center">
+									<div class="team-mem">
+										<div class="img">
+											<img src="img/automotive_logo.png" class="card-img" alt="loading..." />
+										</div>
+										<div class="det-hid">
+											<div class="svg-container">
+												<a href="mailto:automotiveclub@iitrpr.ac.in" target="_blank"
+													style="margin-right: 10px;">
+													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+														fill="white" border="white" class="bi bi-envelope"
+														viewBox="0 0 16 16">
+														<path
+															d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+													</svg></a>
+												</a>
+												<a href="https://www.instagram.com/automotive_club_iitrpr/" target="_blank"
+													style="font-size: 25px; margin-right: 10px;">
+													<i class="fab fa-instagram"></i>
+												</a>
+												<a href="https://in.linkedin.com/company/automotive-club-iit-ropar"
+													target="_blank" style="margin-right: 10px;">
+													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+														fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+														<path
+															d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+													</svg>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-8 bg-transparent card text-left order-md-1">
+									<div class="card-body" style="padding-top: 0;">
+										<p class="card-text" style="font-size:18px; color:aliceblue;">
+
+											<span class="br">The Automotive Club of IIT Ropar was established in 2018 as
+												a
+												result of the
+												collective efforts of
+												students and faculty members passionate about automobiles.</span>
+											<span class="br">We form a strong community of automobile enthusiasts
+												working
+												with the
+												latest tech and
+												innovations while
+												focusing on clean energy, zero-emission and autonomous mobility.We aim
+												to
+												foster a
+												competitive culture in the
+												institute by training a large pool of students in the mobility sector
+												through
+												participation
+												in national and
+												international competitions with active support from Industry and
+												Industry
+												experts by
+												conducting regular sessions
+												and workshops for training of students.</span>
+											<span class="br">We aim to become the best student-driven automotive club in
+												the
+												country by
+												providing
+												hands-on experience in the
+												mobility domain while nurturing professionalism, competitiveness, and
+												joy of
+												engineering
+												the
+												latest
+												technologies.</span>
+											<span class="br">Our vision is to produce the next generation of engineering
+												leaders in the
+												mobility sector
+												from IIT Ropar.</span>
+										</p>
+										<a href="automotive_club.html" class="btn btn-primary">Know More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+
+					<li id="club5" role="presentation"><a id="hehe" href="http://tech-iitb.org/#f5" aria-controls="f5"
+							role="tab" data-toggle="tab" style="color:gainsboro ;font-size:30px "> CIM Club</a>
+						<div class="card text-white bg-transparent mb-3" style="max-width: 100%">
+							<div class="row no-gutters align-items-center">
+								<div class="col-md-4 d-flex justify-content-center">
+									<div class="team-mem">
+										<div class="img">
+											<img src="img/cim_logo.png" class="card-img" alt="loading..." />
+										</div>
+										<div class="det-hid">
+											<div class="svg-container">
+												<a href="mailto:cimclub@iitrpr.ac.in" target="_blank"
+													style="margin-right: 10px;">
+													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+														fill="white" border="white" class="bi bi-envelope"
+														viewBox="0 0 16 16">
+														<path
+															d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+													</svg></a>
+												</a>
+												<a href="https://www.instagram.com/cim_club_iitrpr/" target="_blank"
+													style="font-size: 25px; margin-right: 10px;">
+													<i class="fab fa-instagram"></i>
+												</a>
+												<a href="https://in.linkedin.com/company/cim-club-iit-ropar"
+													target="_blank" style="margin-right: 10px;">
+													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+														fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+														<path
+															d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+													</svg>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-8 bg-transparent card text-left">
+									<div class="card-body" style="padding-top: 0;">
+										<p class="card-text" style="font-size:18px; color:aliceblue ;">
+											CIM club harnesses the power of computing for simulations and
+											designing.Computer-integrated manufacturing (CIM) is the
+											manufacturing approach of using computers to control the entire production
+											process.This club bolsters 2D and 3D
+											designing of anything and everything you can imagine.This club also deals
+											with computer simulations of various systems
+											CIM is an example of the implementation of information and communication
+											technologies (ICTs) in manufacturing.
+										</p>
+										<a href="CIM.html" class="btn btn-primary">Know More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+
+					<li id="club3" role="presentation"><a id="hhhh" href="http://tech-iitb.org/#f3" aria-controls="f3"
+							role="tab" data-toggle="tab" style="color:gainsboro ; font-size:30px ">Coding
+							Club </a>
+						<p align="left" style="color:aliceblue ;font-size:18px">
+						<div class="card text-white bg-transparent mb-3" style="max-width: 100%">
+							<div class="row no-gutters align-items-center">
+								<div class="col-md-4 order-md-2 d-flex justify-content-center">
+									<div class="team-mem">
+										<div class="img">
+											<img src="img/coding_logo.png" class="card-img" alt="loading..." />
+										</div>
+										<div class="det-hid">
+											<div class="svg-container">
+												<a href="mailto:codingclub@iitrpr.ac.in" target="_blank"
+													style="margin-right: 10px;">
+													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+														fill="white" border="white" class="bi bi-envelope"
+														viewBox="0 0 16 16">
+														<path
+															d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+													</svg></a>
+												</a>
+												<a href="https://www.instagram.com/coding_iitrpr/" target="_blank"
+													style="font-size: 25px; margin-right: 10px;">
+													<i class="fab fa-instagram"></i>
+												</a>
+												<a href="https://www.linkedin.com/company/coding-club-iit-ropar"
+													target="_blank" style="margin-right: 10px;">
+													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+														fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+														<path
+															d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+													</svg>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-8 bg-transparent card text-left order-md-1">
+									<div class="card-body" style="padding-top: 0;">
+										<p class="card-text" style="font-size:18px; color:aliceblue;">
+											The Coding Club, being the largest club in college,is instrumental in
+											setting up the right atmosphere for competitive
+											coding in the college. Alongwith enabling people to develop the unparalleled
+											skills for coding their way through
+											external competitions, the club often holds contests of its own to boast the
+											coding skills of the college. Coding club
+											focuses on logical development and solving problems using an optimal
+											approach which allows its members to think in ways
+											that are creative and outside the box. Practice is the best way to acquire a
+											greedy , algorithmic approach and coding
+											club hosts multiple sessions for practicing and explaining questions along
+											with concepts involved that form the basis of
+											such complex , greedy questions . Each Session is taken by coordinators and
+											supercoordinators , who have excellent
+											coding skills , along with slides for explaining the concepts and questions
+											. We here at coding club believe that
+											thought process and greedy approach along with algorithmic knowldege can
+											prove to be a truly remarkable combination .
+											Coding club is the best stepping stone for a beginner to get into this
+											creative and enthralling world of competitive
+											programming where the competition is fierce and vey very engaging! We are
+											always on the quest for the better, after all
+											there is no ‘best’ in a competition.
+										</p>
+										<a href="https://codec-ropar.github.io/codingclubiitrpr.github.io/"
+											target="_blank" class="btn btn-primary">Know More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+
+					<li id="club10" role="presentation"><a id="hiohe" href="http://tech-iitb.org/#f10"
+							aria-controls="f10" role="tab" data-toggle="tab" style="color:gainsboro ;font-size:30px ">
+							ESportZ</a>
+						<div class="card text-white bg-transparent mb-3" style="max-width: 100%">
+							<div class="row no-gutters align-items-center">
+								<div class="col-md-4 d-flex justify-content-center">
+									<div class="team-mem">
+										<div class="img">
+											<img src="img/esportz_logo.png" class="card-img rounded-circle"
+												alt="loading..." />
+										</div>
+										<div class="det-hid">
+											<div class="svg-container">
+												<a href="mailto:sa.esportz@iitrpr.ac.in" target="_blank"
+													style="margin-right: 10px;">
+													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+														fill="white" border="white" class="bi bi-envelope"
+														viewBox="0 0 16 16">
+														<path
+															d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+													</svg></a>
+												</a>
+												<a href="https://instagram.com/esportz.iitrpr/" target="_blank"
+													style="font-size: 25px; margin-right: 10px;">
+													<i class="fab fa-instagram"></i>
+												</a>
+												<a href="https://in.linkedin.com/company/esportz-iitrpr"
+													target="_blank" style="margin-right: 10px;">
+													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+														fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+														<path
+															d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+													</svg>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-8 bg-transparent card text-left">
+									<div class="card-body" style="padding-top: 0;">
+										<p class="card-text" style="font-size:18px; color:aliceblue ;">
+											Welcome to ESportZ Club, the premier gaming community of IIT ROPAR. As the
+											regulating body for esports on campus, we
+											bring together students passionate about competitive gaming, skill
+											development, and teamwork. ESportZ Club organizes
+											regular tournaments and events, featuring popular games across various
+											genres. Our primary focus is to ensure fair
+											competition and uphold the highest standards of sportsmanship. We foster an
+											inclusive environment that encourages growth
+											and camaraderie among gamers.Beyond the virtual arena, we offer workshops,
+											seminars, and interactive sessions to explore
+											the dynamic world of esports. Our community provides a platform for gamers
+											of all skill levels to connect, learn, and
+											excel. Join ESportZ Club today and become a part of the thrilling esports
+											revolution at IIT ROPAR. Level up your gaming
+											skills, participate in regulated competitions, and forge meaningful
+											connections with fellow gamers. Together, let's
+											embrace the competitive spirit and make our mark in the world of esports
+										</p>
+										<a href="esportz.html" class="btn btn-primary">Know More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+
+					<li id="club7" role="presentation"><a href="http://tech-iitb.org/#f7" aria-controls="f7" role="tab"
+							data-toggle="tab" style="color:gainsboro ;font-size:30px">FinCOM</a>
+						<div class="card text-white bg-transparent mb-3" style="max-width: 100%">
+							<div class="row no-gutters align-items-center">
+								<div class="col-md-4 order-md-2 d-flex justify-content-center">
+									<div class="team-mem">
+										<div class="img">
+											<img src="img/fincom_logo.png" class="card-img rounded-circle"
+												alt="loading..." />
+										</div>
+										<div class="det-hid">
+											<div class="svg-container">
+												<a href="mailto:fincom@iitrpr.ac.in" target="_blank"
+													style="margin-right: 10px;">
+													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+														fill="white" border="white" class="bi bi-envelope"
+														viewBox="0 0 16 16">
+														<path
+															d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+													</svg></a>
+												</a>
+												<a href="https://instagram.com/fincom_iitrpr/" target="_blank"
+													style="font-size: 25px; margin-right: 10px;">
+													<i class="fab fa-instagram"></i>
+												</a>
+												<a href="https://www.linkedin.com/company/fincomiitropar/"
+													target="_blank" style="margin-right: 10px;">
+													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+														fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+														<path
+															d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+													</svg>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-8 bg-transparent card text-left order-md-1">
+									<div class="card-body" style="padding-top: 0;">
+										<p class="card-text" style="font-size:18px; color:aliceblue;">
+											<span class="br"> Welcome to FinCOM, the hub of financial knowledge and
+												exploration at IIT
+												ROPAR.</span>
+											<span class="br">If you have a passion for numbers, investing, and the world
+												of
+												finance, you've come to the right place. Our club is
+												dedicated to fostering a community of like-minded individuals who are
+												eager to expand their understanding of the
+												financial landscape, develop practical skills, and create opportunities
+												for future success in the field.</span>
+											<span class="br">Whether you're a finance major, a curious beginner, or
+												simply someone
+												who wants to learn more about managing personal
+												finances, FinCOM offers a supportive and engaging environment for
+												everyone.</span>
+											<span class="br">As a member of FinCOM, you can expect a wide range of
+												activities and
+												events tailored to your interests and goals. We
+												organize interactive workshops, guest lectures by professionals from
+												various sectors, investment competitions and more.
+												These opportunities will not only enhance your financial literacy but
+												also provide valuable real-world experiences and
+												connections that can set you apart in the competitive finance
+												industry.</span>
+											<span class="br">Get ready to unlock the doors to endless possibilities in
+												finance with
+												the FinCOM community.</span>
+										</p>
+										<a href="https://fincom-iitropar.github.io/" class="btn btn-primary"
+											target="_blank">Know
+											More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+
+					<li id="club8" role="presentation"><a href="http://tech-iitb.org/#f6" aria-controls="f6" role="tab"
+							data-toggle="tab" style="color:gainsboro ;font-size:30px">Monochrome Club</a>
+						<div class="card text-white bg-transparent mb-3" style="max-width: 100%">
+							<div class="row no-gutters align-items-center">
+								<div class="col-md-4 d-flex justify-content-center">
+									<div class="team-mem">
+										<div class="img">
+											<img src="img/monochrome_logo.png" class="card-img rounded-circle"
+												alt="loading..." />
+										</div>
+										<div class="det-hid">
+											<div class="svg-container">
+												<a href="mailto:monochromeclub@iitrpr.ac.in" target="_blank"
+													style="margin-right: 10px;">
+													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+														fill="white" border="white" class="bi bi-envelope"
+														viewBox="0 0 16 16">
+														<path
+															d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+													</svg></a>
+												</a>
+												<a href="https://www.instagram.com/monochrome_iitrpr/" target="_blank"
+													style="font-size: 25px; margin-right: 10px;">
+													<i class="fab fa-instagram"></i>
+												</a>
+												<a href="https://in.linkedin.com/in/monochrome-club-iit-ropar-057698254"
+													target="_blank" style="margin-right: 10px;">
+													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+														fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+														<path
+															d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+													</svg>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-8 bg-transparent card text-left">
+									<div class="card-body" style="padding-top: 0;">
+										<p class="card-text" style="font-size:18px; color:aliceblue ;">
+											The club Monochrome is driven by the motivation of exploring without any
+											constraint,
+											where our imagination are your words and your skills your pen, and when you
+											blend
+											them together, you write beautiful poetry that perfectly reflects your
+											ideology.
+											Bringing
+											out the best out of the provided is also one of our motives
+											To provide basic knowledge of Digital design to the upcoming designers of
+											IIT Ropar.
+											Also Provide them hands on experience in photoshop , illustrator and
+											premiere pro
+											through design labs and help them gain experience in digital
+											designing/editing via
+											enabling them to give their contribution in organising various events at IIT
+											Ropar
+											throughout the year.
+											So if you think designing is for you, then MONOChrome should definitely be
+											on your
+											list.
+										</p>
+										<a href="monochrome_club.html" class="btn btn-primary">Know More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+
+
+					<li id="club1" role="presentation" class="active"><a href="http://tech-iitb.org/#f1"
+							aria-controls="f1" role="tab" data-toggle="tab" style="color:gainsboro ; font-size:30px">
+							Robotics Club</a>
+						<div class="card text-white bg-transparent mb-3" style="max-width: 100%">
+							<div class="row no-gutters align-items-center">
+								<div class="col-md-4 order-md-2 d-flex justify-content-center">
+									<div class="team-mem">
+										<div class="img">
+											<img src="img/Robotics_logo.png" class="card-img rounded-circle"
+												alt="loading..." />
+										</div>
+										<div class="det-hid">
+											<div class="svg-container">
+												<a href="mailto:robotics@iitrpr.ac.in" target="_blank"
+													style="margin-right: 10px;">
+													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+														fill="white" border="white" class="bi bi-envelope"
+														viewBox="0 0 16 16">
+														<path
+															d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+													</svg></a>
+												</a>
+												<a href="https://www.instagram.com/robotics_iitrpr/" target="_blank"
+													style="font-size: 25px; margin-right: 10px;">
+													<i class="fab fa-instagram"></i>
+												</a>
+												<a href="https://www.linkedin.com/company/robotics-club-iitrpr/"
+													target="_blank" style="margin-right: 10px;">
+													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+														fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+														<path
+															d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+													</svg>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-8 bg-transparent card text-left order-md-1">
+									<div class="card-body" style="padding-top: 0;">
+										<p class="card-text" style="font-size:18px; color:aliceblue ;">
+											<span class="br">Welcome to the Robotics Club of the Indian Institute of
+												Technology Ropar! We are a
+												passionate group of students dedicated to exploring the exciting world
+												of robotics and its
+												limitless possibilities.</span>
+											<span class="br">At the Robotics Club, our mission is to provide a platform
+												for students to unleash
+												their creativity, hone their technical skills, and push the boundaries
+												in the realm of robotics.
+												Driven by a spirit of curiosity and a thirst for knowledge, our club
+												members engage in a diverse
+												range of activities from designing and building robots for various
+												competitions to conducting
+												sessions and workshops. We also host numerous events throughout the
+												year, including competitions
+												and guest lectures, where we embrace every opportunity to delve into the
+												fascinating field of
+												robotics.</span>
+											<span class="br">Together, we embark on an exhilarating journey where
+												imagination meets engineering,
+												where dreams take shape in the form of autonomous machines, and where
+												the future unfolds before
+												our eyes.</span>
+											<span class="br">Come, join us, and be a part of this remarkable endeavor as
+												we explore the
+												fascinating world of robotics, one step at a time.</span>
+										</p>
+										<a href="robotics_club.html" class="btn btn-primary">Know More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+
+					<li id="club4" role="presentation"><a href="http://tech-iitb.org/#f4" aria-controls="f4" role="tab"
+							data-toggle="tab" style="color:gainsboro ;font-size:30px">SoftCom</a>
+						<div class="card text-white bg-transparent mb-3" style="max-width: 100%">
+							<div class="row no-gutters align-items-center">
+								<div class="col-md-4 d-flex justify-content-center">
+									<div class="team-mem">
+										<div class="img">
+											<img src="img/softcom_logo.jpg" class="card-img rounded-circle" alt="loading..." />
+										</div>
+										<div class="det-hid">
+											<div class="svg-container">
+												<a href="mailto:softcom@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" border="white"
+														class="bi bi-envelope" viewBox="0 0 16 16">
+														<path
+															d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+													</svg></a>
+												</a>
+												<a href="https://www.instagram.com/softcom_iitrpr/" target="_blank"
+													style="font-size: 25px; margin-right: 10px;">
+													<i class="fab fa-instagram"></i>
+												</a>
+												<a href="https://www.linkedin.com/company/softcom-iitrpr/" target="_blank" style="margin-right: 10px;">
+													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+														class="bi bi-linkedin" viewBox="0 0 16 16">
+														<path
+															d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+													</svg>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-8 bg-transparent card text-left">
+									<div class="card-body" style="padding-top: 0;">
+										<p class="card-text" style="font-size:18px; color:aliceblue ;">
+											<span class="br">Welcome to SOFTCOM, the software community club of IIT
+												Ropar!</span>
+											<span class="br"></span>We are a vibrant hub where aspiring software
+											enthusiasts and seasoned developers come together to learn, collaborate,
+											and innovate. Through hands-on experience, workshops, and projects, we
+											provide opportunities for members to enhance
+											their coding abilities, understand industry practices, and explore
+											cutting-edge technologies. With a strong network of
+											passionate individuals, expert speakers, and access to top-notch resources,
+											SOFTCOM offers a supportive environment for
+											students to grow, connect, and make a positive impact in the world of
+											technology.</span>
+											<span class="br"></span>Join us at IIT Ropar's SOFTCOM and embark on an
+											exciting journey of software exploration and innovation. Let's code,
+											collaborate, and create the future together!</span>
+										</p>
+										<a href="softcom.html" class="btn btn-primary">Know More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+
+					<li id="club6" role="presentation"><a href="http://tech-iitb.org/#f6" aria-controls="f6" role="tab"
+							data-toggle="tab" style="color:gainsboro ;font-size:30px">Zentih Club</a>
+						<div class="card text-white bg-transparent mb-3" style="max-width: 100%">
+							<div class="row no-gutters align-items-center">
+								<div class="col-md-4 order-md-2 d-flex justify-content-center">
+									<div class="team-mem">
+										<div class="img">
+											<img src="img/zenith_logo.png" class="card-img rounded-circle" alt="loading..." />
+										</div>
+										<div class="det-hid">
+											<div class="svg-container">
+												<a href="mailto:zenithclub@iitrpr.ac.in" target="_blank" style="margin-right: 10px;">
+													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" border="white"
+														class="bi bi-envelope" viewBox="0 0 16 16">
+														<path
+															d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+													</svg></a>
+												</a>
+												<a href="https://instagram.com/zenith_iit_ropar" target="_blank"
+													style="font-size: 25px; margin-right: 10px;">
+													<i class="fab fa-instagram"></i>
+												</a>
+												<a href="https://www.linkedin.com/company/zenith-iit-ropar/" target="_blank" style="margin-right: 10px;">
+													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+														class="bi bi-linkedin" viewBox="0 0 16 16">
+														<path
+															d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+													</svg>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-8 bg-transparent card text-left order-md-1">
+									<div class="card-body" style="padding-top: 0;">
+										<p class="card-text" style="font-size:18px; color:aliceblue ;">
+											Embark on a cosmic journey with Zenith—a vibrant community of stargazers,
+											space enthusiasts, and explorers of the
+											universe. In our club, you can expand your knowledge, engage in astronomical
+											activities or connect with individuals who
+											share your insatiable curiosity. We conduct regular stargazing sessions to
+											explore the night sky with our telescope. We
+											organize quizzes, as well as Case Studies on current and basic astronomy
+											topics to enhance our knowledge about the
+											recent events and challenges as well as explore the depths of Physics. We
+											also do amateur Astro-photography. We invite
+											distinguished professors for guest lectures who have contributed their lives
+											in this field. Everyone is welcome to all
+											these events. No prior knowledge in astronomy is required, just interest and
+											passion for the heavens above is all we
+											need!
+										</p>
+										<a href="https://bost-iitropar.github.io/zenith/" target="_blank"
+											class="btn btn-primary">Know More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+			</div>
+	</section>
+	<footer class="footer mt-5">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-6" style="display: flexbox;">
+				<!-- <div class="col-md-6"> -->
+					<div class="widget-contact align-items-center justify-content-center">
+					  <a style="font-size: 20px; " href="index.html">Board of Science and Technology</a>
+					  <p style="color:white;" class="mb-0 font-weight-bold"><strong>Address</strong></p>
+					  <p class=""><a style="color:white;" href="#">Nangal Rd, Hussainpur, Rupnagar, Punjab, India
+						  140001</a></p>
+					  <p style="color:white;" class="mb-0 font-weight-bold"><strong>Phone</strong> </p>
+					  <p class=""><a style="color:white;" href="#">General Secretary:: +91 76270 00977</a></p>      
+					  <p style="color:white;" class="mb-0 font-weight-bold"><strong>Email Address</strong></p>
+					  <p class="mb-0"><a style="color:white;" href="#">General Secretary:: gs.tech@iitrpr.ac.in</a></p>
+					</div>
+			</div>
+			<div class="col-md-6">
+				<h4 style="font-weight: bold; color:white; font-family: Arial, Helvetica, sans-serif;">Contact us
+				  <br>
+				</h4>
+				<a style="font-size:30px;" href="https://www.facebook.com/IIT-Ropar-262431593827848/?ref=br_rs"
+				  class="fa fa-facebook"></a>
+				<a style="font-size:30px;"
+				  href="https://twitter.com/iitrpr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+				  class="fa fa-twitter"></a>
+				<a style="font-size:30px;" href="https://www.instagram.com/iitropar/?hl=en" class="fa fa-instagram"></a>
+				<br>
+				<font style="color:white; font-size:15px">Website: <a href="https://codec-ropar.github.io">codec-ropar.github.io</a></font>
+				<br><br>
+				<div class="mt-5 d-flex justify-content-end"><p style="bottom: 0; right: 0;">Copyright @SoftCom IITRopar</p></div>
+			</div>
+				
+			</div>
+		  </div>
+		</div>
+	  </footer>
+
+	<!-- jquery plugins here-->
+	<!-- jquery -->
+	<script src="js/jquery-1.12.1.min.js"></script>
+	<!-- popper js -->
+	<script src="js/popper.min.js"></script>
+	<!-- bootstrap js -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- easing js -->
+	<script src="js/jquery.magnific-popup.js"></script>
+	<!-- swiper js -->
+	<script src="js/swiper.min.js"></script>
+	<!-- swiper js -->
+	<script src="js/masonry.pkgd.js"></script>
+	<!-- particles js -->
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/owl.carousel2.thumbs.min.js"></script>
+	<!-- swiper js -->
+	<script src="js/slick.min.js"></script>
+	<!-- custom js -->
+	<script src="js/custom.js?v=1"></script>
+	<script>
+		/*Navbar*/
+		$(document).ready(function () {
+			$(".nav-cover").load("nav.html");
+		});
+	</script>
+</body>
+
+</html>
