@@ -1,0 +1,82 @@
+.flex{
+    display: flex;
+    gap: 2rem;
+}
+.logo{
+    margin: 1.5rem;
+}
+.primary-header{
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    background-color: none;
+}
+.mobile-nav-toggle{
+    display: none;
+}
+.primary-navigation{
+    list-style: none;
+    
+    padding: 0;
+    margin: 0;
+   
+    
+}
+
+.primary-navigation a{
+    text-decoration:none
+    
+}
+a:hover {
+    color: red;
+  }
+.primary-navigation a:hover{
+    text-decoration:none;
+    color:blue;
+}
+.change{
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.menu-btn{
+    color: white;
+}
+button{
+    border: 0;
+    background: none;
+}
+
+@media(max-width: 35em){
+    .primary-navigation{
+        position: fixed;
+        z-index: 2;
+        inset: 0 0 0 30%;
+        gap: 1.5rem;
+        flex-direction: column;
+        background: hsl(0 0% 100% / 0.1);
+        backdrop-filter: blur(2rem);
+        padding: min(15vh,8rem) 2rem;
+        transform: translateX(100%);
+        transition: transform 300ms ease-out;
+    }
+    .primary-navigation[data-visible="true"]{
+        transform: translateX(0%);
+    }
+    .mobile-nav-toggle{
+        display: block;
+        position: absolute;
+        border: 0;
+        z-index: 9999;
+        top: 3rem;
+        right: 2rem;
+    }
+}
+@media(min-width:35em){
+    .primary-navigation{
+        padding: 1rem;
+        margin-right: 2rem;
+    }
+}
